@@ -1,0 +1,203 @@
+API DOCUMENTATION
+# The purpose of this document is to demonstrate the calls to APIs used for Phase 2 of this project
+
+###### MENU ITEMS ###### 
+'''
+url = "https://edamam-recipe-search.p.rapidapi.com/api/recipes/v2"
+
+cuisines = ["Italian", "Chinese", "Korean", "Mexican", "American"]
+
+    for i in range(len(cuisines): 
+    querystring = {"type":"public","co2EmissionsClass":"A","beta":"false","random":"true","cuisineType[0]": cuisine[i],"imageSize[0]":"LARGE"}
+
+    headers = {
+        "Accept-Language": "en",
+        "X-RapidAPI-Key": "dd7a6afc1amshacd315e470612c6p1565e5jsnac4a58de874e",
+        "X-RapidAPI-Host": "edamam-recipe-search.p.rapidapi.com"
+    }
+
+    response = requests.get(url, headers=headers, params=querystring)
+
+    if response.status_code == 200: 
+        
+        # returns a data 
+        data = json.loads(response.text)
+        pprint.pprint(data)
+
+        filename = f'recipes{i + 1}.json'
+        with open(filename, "w") as fp:
+            json.dump(data , fp, indent = 4) 
+
+    else: 
+        print(f'Error: {response.status_code}')
+'''
+###### RESTAURANTS ######
+## FIRST API CALL 
+# url = "https://api.yelp.com/v3/businesses/search"
+# API_KEY = "dANgFspOWnetwW-iN3sAL7aaAn-QYjhlWfUitU19Duu5lARkYOgQI-Cee9JchHAgcDUUgaKxF4wvBmSRRQlZld-luauRenGua2DpxqBscI0KuD5ACsN6Y9BAcm3-ZXYx"
+# client_ID = "NVFow3aK-2RZfpXZSc2-Ng"
+# headers = {'Authorization': 'Bearer {}'.format(API_KEY)}
+# parameters = {"term": "restaurants",
+#               "limit": 50,
+#               "location": "Austin"}
+
+# # get the requests 
+# response = requests.get(url, headers = headers, params = parameters) 
+
+# # print the text from the response object 
+# if response.status_code == 200: 
+#     print(response.text)
+    
+#     # returns a data 
+#     data = json.loads(response.text)
+#     pprint.pprint(data)
+#     with open("yelp_menus.json", "w") as fp:
+#         json.dump(data , fp, indent = 4) 
+
+# else: 
+#     print(f'Error: {response.status_code}')
+
+## SECOND API CALL 
+# url = "https://api.yelp.com/v3/businesses/search"
+# API_KEY = "dANgFspOWnetwW-iN3sAL7aaAn-QYjhlWfUitU19Duu5lARkYOgQI-Cee9JchHAgcDUUgaKxF4wvBmSRRQlZld-luauRenGua2DpxqBscI0KuD5ACsN6Y9BAcm3-ZXYx"
+# client_ID = "NVFow3aK-2RZfpXZSc2-Ng"
+# headers = {'Authorization': 'Bearer {}'.format(API_KEY)}
+# parameters = {"term": "restaurants",
+#               "limit": 50,
+#               "offset": 50,
+#               "location": "Austin"}
+
+# # get the requests 
+# response = requests.get(url, headers = headers, params = parameters) 
+
+# # print the text from the response object 
+# if response.status_code == 200: 
+#     print(response.text)
+    
+#     # returns a data 
+#     data = json.loads(response.text)
+#     pprint.pprint(data)
+#     with open("yelp_menus2.json", "w") as fp:
+#         json.dump(data , fp, indent = 4) 
+
+# else: 
+#     print(f'Error: {response.status_code}')
+
+## THIRD API CALL 
+# url = "https://api.yelp.com/v3/businesses/search"
+# API_KEY = "dANgFspOWnetwW-iN3sAL7aaAn-QYjhlWfUitU19Duu5lARkYOgQI-Cee9JchHAgcDUUgaKxF4wvBmSRRQlZld-luauRenGua2DpxqBscI0KuD5ACsN6Y9BAcm3-ZXYx"
+# client_ID = "NVFow3aK-2RZfpXZSc2-Ng"
+# headers = {'Authorization': 'Bearer {}'.format(API_KEY)}
+# parameters = {"term": "restaurants",
+#               "limit": 50,
+#               "offset": 100,
+#               "location": "Austin"}
+
+# # get the requests 
+# response = requests.get(url, headers = headers, params = parameters) 
+
+# # print the text from the response object 
+# if response.status_code == 200: 
+#     print(response.text)
+    
+#     # returns a data 
+#     data = json.loads(response.text)
+#     pprint.pprint(data)
+#     with open("yelp_menus3.json", "w") as fp:
+#         json.dump(data , fp, indent = 4) 
+
+# else: 
+#     print(f'Error: {response.status_code}')
+
+## FOURTH API CALL 
+# url = "https://api.yelp.com/v3/businesses/search"
+# API_KEY = "dANgFspOWnetwW-iN3sAL7aaAn-QYjhlWfUitU19Duu5lARkYOgQI-Cee9JchHAgcDUUgaKxF4wvBmSRRQlZld-luauRenGua2DpxqBscI0KuD5ACsN6Y9BAcm3-ZXYx"
+# client_ID = "NVFow3aK-2RZfpXZSc2-Ng"
+# headers = {'Authorization': 'Bearer {}'.format(API_KEY)}
+# parameters = {"term": "restaurants",
+#               "limit": 50,
+#               "offset": 150,
+#               "location": "Austin"}
+
+# # get the requests 
+# response = requests.get(url, headers = headers, params = parameters) 
+
+# # print the text from the response object 
+# if response.status_code == 200: 
+#     print(response.text)
+    
+#     # returns a data 
+#     data = json.loads(response.text)
+#     pprint.pprint(data)
+#     with open("yelp_menus4.json", "w") as fp:
+#         json.dump(data , fp, indent = 4) 
+
+# else: 
+#     print(f'Error: {response.status_code}')
+
+##### CUISINES ##### 
+'''
+subregions = ["Central europe", "South america", "Eastern europe", "Asia", "South-eastern asia" ]
+
+for subregion in subregions: 
+
+    # call API for subregion 
+    # url = f"https://restcountries.com/v3.1/region/{subregion}"
+
+    # response = requests.get(url)
+
+    # if response.status_code == 200: 
+    #     # returns a data 
+    #     data = json.loads(response.text)
+    #     with open(f"{subregion}.json", "w") as fp:
+    #         json.dump(data , fp, indent = 4) 
+
+    # else: 
+    #     print(f'Error: {response.status_code}')
+''' 
+
+# determine the country and flag for each singular-country cuisine 
+remaining = {
+    "Nordic": ["Denmark", "Finland", "Iceland", "Norway"],
+    "American": ["United States"],
+    "French": ["France"],
+    "Italian": ["Italy"],
+    "Mexican": ["Mexico"],
+    "Indian": ["India"],
+    "Kosher": ["Israel"],
+    "British": ["United Kingdom"],
+    "Chinese": ["China"],
+    "Middle eastern": ["Iraq", "Yemen", "UAE", "Kuwait"],
+    "Mediterranean": ["Greece", "Italy", "Spain", "Morocco","Egypt", "Lebanon"] 
+}
+for countries in remaining: 
+    for cuisine in cuisine_model["cuisines"]: 
+        # current cuisine 
+        if cuisine["name"] == countries: 
+            cuisine["countries"] = []
+            cuisine["flags"] = [] 
+
+
+            for country in remaining[countries]: 
+                url = f"https://restcountries.com/v3.1/name/{country}"
+
+                response = requests.get(url)
+
+                if response.status_code == 200: 
+                    # returns a data 
+                    current = response.json()
+
+                else: 
+                    print(f'Error: {response.status_code}')
+
+
+                for area in current: 
+
+                    if area["name"]["common"] == country:
+                        cuisine["countries"].append(country)
+                        cuisine["flags"].append(area["flags"]["png"])
+
+
+#pprint.pprint(cuisine_model)
+with open("cuisines.json", "w") as fp:
+    json.dump(cuisine_model , fp, indent = 4)

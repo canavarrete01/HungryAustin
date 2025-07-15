@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hungry Austin | Welcome</title>
+
+        <!-- External Links -->
+        <link rel="icon" href="../static/images/icon.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@600&family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="../static/css/nav_bar.css">
+        <link rel="stylesheet" href="../static/css/layout.css">
+
+
+        <style>
+          .carousel-control-next,
+          .carousel-control-prev {
+            width: 35vw;
+            height: 75vw;
+            }
+
+         
+            /* Centering icons */
+          section {
+          margin: 0px;
+          min-height: 100vh
+          }
+          
+          body{
+            font-family: "Antonio", sans-serif;
+            font-weight: 500;
+            font-size:large;
+          }
+
+          .col-sm-4{
+            padding-left: 6%;
+            padding-right: 0%;
+          }
+          .col-md-7{
+            padding-left: 0%
+          }
+          .icon-wrapper {
+            position: relative;
+            margin-bottom: 20px; /* Adjust this value to adjust the space between the icon and the title */
+            padding-bottom: 40%;
+            padding-top: 10%;
+          }
+
+          .icon {
+            position: absolute;
+            top: 5px; /* Adjust this value to control how far above the title the icon appears */
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 3rem; /* Adjust this value to change the size of the icon */
+          }
+
+          .staff h1 {
+            font-size:40px; font-weight:700;  letter-spacing:2px; text-transform:uppercase; width:160px; text-align:center; margin:auto; white-space:nowrap; padding-bottom:13px;
+            margin-bottom: 3%;
+          }
+          .staff h1:before {
+              background-color: #BF5700;
+              content: '';
+              display: block;
+              height: 3px;
+              width: 190px;
+              margin-bottom: 5px;
+          }
+          .staff h1:after {
+              background-color: #BF5700;
+              content: '';
+              display: block;
+              position: relative; right: 10; bottom:0;
+              height: 3px;
+              width: 190px;
+              margin-bottom: 0.25em;
+              margin-top: 5px;
+          }
+          
+          .card h4{
+            color: #924302;
+          }
+
+          .card-img-top{
+            width: 100%;
+            height: 210px;
+          }
+
+          .main{
+            margin-bottom: 10px;
+          }
+
+        </style>
+    </head>
+    <body style ="background-color: #f5f4f2;">
+      <!-- <section> -->
+
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-navbar">
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="{{url_for('home')}}"><i class="fas fa-utensils"></i> Home<span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{url_for('about')}}"><i class="fas fa-info-circle"></i> About Us</a>
+                  <a class="nav-link" href="{{url_for('restaurant')}}"><i class="fas fa-utensils"></i> Restaurants</a>
+                  <a class="nav-link" href="{{url_for('cuisines')}}"><i class="fas fa-pepper-hot"></i> Cuisines</a>
+                  <a class="nav-link" href="{{url_for('dishes')}}"><i class="fas fa-utensil-spoon"></i> Dishes</a>
+                </li>
+              </li>
+            </ul>
+
+          </div>
+        </nav>
+
+        <!-- Page Content -->
+          <div class="main">
+              <div class="row">
+                <div class="col-sm-4">
+                    <div class="p-3 p-md-4 mb-3 rounded text-body-emphasis bg-body-secondary">
+                      <div class="col-lg-6 px-0">
+                        <div class="icon-wrapper">
+                        <!-- Icon -->
+                        <div class="icon">
+                          <i class="fa-solid fa-utensils"></i>
+                        </div>
+                      </div>
+                        <h1 class="display-4 fst-italic fw-normal title-style">Hungry Austin</h1>
+                        <h3>Enjoy the Flavors of Austin</h3>
+                        </p>
+                        <p><a href="{{url_for('about')}}">Learn More...</a></p>
+                      </div>
+                    </div>
+                </div>
+
+          <!--Featured Restuarant of the Week-->
+          <div class ="col-md-7">
+          <div id="featuredRestaurant" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                
+                <img class="d-block mx-auto" src="../static/images/front_cabo.jpg" alt="Front of Cabo's">
+                <div class="carousel-caption">
+                  Cabo Bob's on Guadalupe
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img class="d-block mx-auto" src="../static/images/outside.jpg" alt="Outside of Cabo's">
+                <div class="carousel-caption">
+                  Outdoor Seating Area
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img class="d-block mx-auto" src="../static/images/cabo_food.jpg" alt="Cabo's Food">
+              </div>
+            </div>
+          </div>
+        
+  
+        <a class="carousel-control-prev" href="#featuredRestaurant" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#featuredRestaurant" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="false"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        </div>
+        </div>
+        <br>
+        <br>
+
+
+    <!-- </section> -->
+
+    <div class="staff">
+      <h1>Staff Picks</h1>
+    </div>
+
+    <!-- Staff Picks -->
+    <div class = "container">
+        <div class="card-deck">
+          <div class="card">
+            <img src="../static/images/bbq.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Black's Barbecue Austin</h4>
+              <p class="card-text">Acclaimed barbecue family offers brisket, ribs, sides & craft beers in a relaxed, wood-decked space.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated in March 2024</small>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="../static/images/north.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title txt-style ">North Italia</h4>
+              <p class="card-text">Buzzy, modern Italian option with a patio for pizzas and sophisticated Italian fare.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated in March 2024</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../static/images/biscuit.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Bird Bird Biscuit</h4>
+              <p class="card-text">Neighborhood eatery serving house-made buttermilk biscuit sandwiches for breakfast & lunch.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated in March 2024</small>
+            </div>
+          </div>
+        </div>
+      </div>
+        <br>
+        <br>
+
+
+      <!-- Footer-->
+
+        <!-- First Layer Footer -->
+        <footer class="first-layer-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <ul class="nav justify-content-center pb-4 mb-3">
+                  <li class="nav-item"><a href="{{url_for('home')}}" class="nav-link px-2 text-body-secondary"><i class="fas fa-home"></i> Home</a></li>
+                  <li class="nav-item"><a href="{{url_for('about')}}" class="nav-link px-2 text-body-secondary"><i class="fas fa-info-circle"></i> About</a></li>
+                  <li class="nav-item"><a href="{{url_for('restaurant')}}" class="nav-link px-2 text-body-secondary"><i class="fas fa-utensils"></i> Restaurants</a></li>
+                  <li class="nav-item"><a href="{{url_for('cuisines')}}" class="nav-link px-2 text-body-secondary"><i class="fas fa-pepper-hot"></i> Cuisines</a></li>
+                  <li class="nav-item"><a href="{{url_for('dishes')}}" class="nav-link px-2 text-body-secondary"><i class="fas fa-utensil-spoon"></i> Dishes</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <!-- Second Layer Footer -->
+        <footer class="second-layer-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p class="text-center text-body-secondary">&copy; 2024 Hungry Austin</p>
+            </div>
+          </div>
+        </div>
+        </footer>
+
+      
+      <!-- Sources -->
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+                      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" 
+                      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" 
+                      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+    </body>
+</html>

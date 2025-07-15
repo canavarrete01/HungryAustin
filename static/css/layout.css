@@ -1,0 +1,120 @@
+/* Layout CSS */
+
+/* General */
+.b-example-divider {
+    width: 100%;
+    height: 2rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .move-left{
+    margin-left: 55%;
+    padding-top:10px;
+
+  }
+
+.spacer {
+    width: 100%;
+    height: 3rem;
+  }
+
+.col-md-6{
+position: relative;
+    } 
+
+.first-layer-footer {
+    position:static;
+    background-color: #2f3c43 ;
+    color: #fff;
+    padding: 20px 0;
+    height: 80px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;     
+    }
+    /* Second layer footer */
+    .second-layer-footer {
+    position:relative;
+    background-color: #212b30;
+    color: #fff;
+    padding: 10px 0;
+    height: 50px;
+    }
+    .nav-item {
+        display: inline-block;
+        margin-right: 10px; 
+      }
+
+    .nav-link {
+        color: #fff !important;
+    }
+
+    .dropdown {
+      /* float: right; */
+      padding: 10px;
+      margin-bottom: 3%;
+      margin-left: 1%
+    }
+  
+
+/* Title CSS */
+.top{
+    margin-bottom: 0.50px;
+  }
+
+.title-style{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.sub-style{
+    font-weight: bold; 
+    color: black
+  }
+
+.about-style{
+    font-weight: bold; 
+    color: black;
+}
+
+.writing-style{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+.gen-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+font-family: "Antonio", sans-serif;
+font-weight: 500;
+font-size:large;
+}
+
+/* Footer CSS */
+.footer-style {
+    background-color: #212121
+  }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+    line-height: 60px; 
+  }
+
+  /* Pagination */
+  .pagination{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+  }
+  .pagination li{
+    box-shadow: #212121;
+  }

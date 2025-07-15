@@ -1,0 +1,590 @@
+{
+	"info": {
+	  "name": "Hungry Austin API - Requests with Tests",
+	  "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+	  {
+		"name": "Get Restaurants",
+		"request": {
+		  "method": "GET",
+		  "header": [],
+		  "url": {
+			"raw": "http://hungryaustin.uc.r.appspot.com/api/v1/restaurants",
+			"protocol": "http",
+			"host": [
+			  "hungryaustin",
+			  "uc",
+			  "r",
+			  "appspot",
+			  "com"
+			],
+			"path": [
+			  "api",
+			  "v1",
+			  "restaurants"
+			]
+		  }
+		},
+		"event": [
+		  {
+			"listen": "test",
+			"script": {
+			  "exec": [
+				"pm.test(\"Status code is 200\", function () {",
+				"    pm.response.to.have.status(200);",
+				"});",
+				"",
+				"pm.test(\"Response contains restaurants array\", function () {",
+				"    var jsonData = pm.response.json();",
+				"    pm.expect(jsonData.restaurants).to.be.an('array');",
+				"});"
+			  ],
+			  "type": "text/javascript"
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Get Restaurant",
+		"request": {
+		  "method": "GET",
+		  "header": [],
+		  "url": {
+			"raw": "http://hungryaustin.uc.r.appspot.com/api/v1/restaurants/1",
+			"protocol": "http",
+			"host": [
+			  "hungryaustin",
+			  "uc",
+			  "r",
+			  "appspot",
+			  "com"
+			],
+			"path": [
+			  "api",
+			  "v1",
+			  "restaurants",
+			  "1"
+			]
+		  }
+		},
+		"event": [
+		  {
+			"listen": "test",
+			"script": {
+			  "exec": [
+				"pm.test(\"Status code is 200\", function () {",
+				"    pm.response.to.have.status(200);",
+				"});",
+				"",
+				"pm.test(\"Response contains restaurant object\", function () {",
+				"    var jsonData = pm.response.json();",
+				"    pm.expect(jsonData.restaurant).to.be.an('object');",
+				"});"
+			  ],
+			  "type": "text/javascript"
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Get Cuisines",
+		"request": {
+		  "method": "GET",
+		  "header": [],
+		  "url": {
+			"raw": "http://hungryaustin.uc.r.appspot.com/api/v1/cuisines",
+			"protocol": "http",
+			"host": [
+			  "hungryaustin",
+			  "uc",
+			  "r",
+			  "appspot",
+			  "com"
+			],
+			"path": [
+			  "api",
+			  "v1",
+			  "cuisines"
+			]
+		  }
+		},
+		"event": [
+		  {
+			"listen": "test",
+			"script": {
+			  "exec": [
+				"pm.test(\"Status code is 200\", function () {",
+				"    pm.response.to.have.status(200);",
+				"});",
+				"",
+				"pm.test(\"Response contains cuisines array\", function () {",
+				"    var jsonData = pm.response.json();",
+				"    pm.expect(jsonData.cuisines).to.be.an('array');",
+				"});"
+			  ],
+			  "type": "text/javascript"
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Get Cuisine",
+		"request": {
+		  "method": "GET",
+		  "header": [],
+		  "url": {
+			"raw": "http://hungryaustin.uc.r.appspot.com/api/v1/cuisines/1",
+			"protocol": "http",
+			"host": [
+			  "hungryaustin",
+			  "uc",
+			  "r",
+			  "appspot",
+			  "com"
+			],
+			"path": [
+			  "api",
+			  "v1",
+			  "cuisines",
+			  "1"
+			]
+		  }
+		},
+		"event": [
+		  {
+			"listen": "test",
+			"script": {
+			  "exec": [
+				"pm.test(\"Status code is 200\", function () {",
+				"    pm.response.to.have.status(200);",
+				"});",
+				"",
+				"pm.test(\"Response contains cuisine object\", function () {",
+				"    var jsonData = pm.response.json();",
+				"    pm.expect(jsonData.cuisine).to.be.an('object');",
+				"});"
+			  ],
+			  "type": "text/javascript"
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Get Menu Items",
+		"request": {
+		  "method": "GET",
+		  "header": [],
+		  "url": {
+			"raw": "http://hungryaustin.uc.r.appspot.com/api/v1/menu_items",
+			"protocol": "http",
+			"host": [
+			  "hungryaustin",
+			  "uc",
+			  "r",
+			  "appspot",
+			  "com"
+			],
+			"path": [
+			  "api",
+			  "v1",
+			  "menu_items"
+			]
+		  }
+		},
+		"event": [
+		  {
+			"listen": "test",
+			"script": {
+			  "exec": [
+				"pm.test(\"Status code is 200\", function () {",
+				"    pm.response.to.have.status(200);",
+				"});",
+				"",
+				"pm.test(\"Response contains menu_items array\", function () {",
+				"    var jsonData = pm.response.json();",
+				"    pm.expect(jsonData.menu_items).to.be.an('array');",
+				"});"
+			  ],
+			  "type": "text/javascript"
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Get Menu Item",
+		"request": {
+		  "method": "GET",
+		  "header": [],
+		  "url": {
+			"raw": "http://hungryaustin.uc.r.appspot.com/api/v1/menu_items/1",
+			"protocol": "http",
+			"host": [
+			  "hungryaustin",
+			  "uc",
+			  "r",
+			  "appspot",
+			  "com"
+			],
+			"path": [
+			  "api",
+			  "v1",
+			  "menu_items",
+			  "1"
+			]
+		  }
+		},
+		"event": [
+		  {
+			"listen": "test",
+			"script": {
+			  "exec": [
+				"pm.test(\"Status code is 200\", function () {",
+				"    pm.response.to.have.status(200);",
+				"});",
+				"",
+				"pm.test(\"Response contains menu_item object\", function () {",
+				"    var jsonData = pm.response.json();",
+				"    pm.expect(jsonData.menu_item).to.be.an('object');",
+				"});"
+			  ],
+			  "type": "text/javascript"
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Sort Restaurants",
+		"request": {
+		  "method": "GET",
+		  "header": [],
+		  "url": {
+			"raw": "http://hungryaustin.uc.r.appspot.com/api/v1/restaurants/sort?sort_by=name&sort_order=asc",
+			"protocol": "http",
+			"host": [
+			  "hungryaustin",
+			  "uc",
+			  "r",
+			  "appspot",
+			  "com"
+			],
+			"path": [
+			  "api",
+			  "v1",
+			  "restaurants",
+			  "sort"
+			],
+			"query": [
+			  {
+				"key": "sort_by",
+				"value": "name"
+			  },
+			  {
+				"key": "sort_order",
+				"value": "asc"
+			  }
+			]
+		  }
+		},
+		"event": [
+		  {
+			"listen": "test",
+			"script": {
+			  "exec": [
+				"pm.test(\"Status code is 200\", function () {",
+				"    pm.response.to.have.status(200);",
+				"});",
+				"",
+				"pm.test(\"Response contains sorted restaurants array\", function () {",
+				"    var jsonData = pm.response.json();",
+				"    pm.expect(jsonData.restaurants).to.be.an('array');",
+				"    ",
+				"    var sortedArray = jsonData.restaurants.sort(function(a, b) {",
+				"        return a.name.localeCompare(b.name);",
+				"    });",
+				"    ",
+				"    pm.expect(jsonData.restaurants).to.deep.equal(sortedArray);",
+				"});"
+			  ],
+			  "type": "text/javascript"
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Sort Cuisines",
+		"request": {
+		  "method": "GET",
+		  "header": [],
+		  "url": {
+			"raw": "http://hungryaustin.uc.r.appspot.com/api/v1/cuisines/sort?sort_by=name&sort_order=asc",
+			"protocol": "http",
+			"host": [
+			  "hungryaustin",
+			  "uc",
+			  "r",
+			  "appspot",
+			  "com"
+			],
+			"path": [
+			  "api",
+			  "v1",
+			  "cuisines",
+			  "sort"
+			],
+			"query": [
+			  {
+				"key": "sort_by",
+				"value": "name"
+			  },
+			  {
+				"key": "sort_order",
+				"value": "asc"
+			  }
+			]
+		  }
+		},
+		"event": [
+		  {
+			"listen": "test",
+			"script": {
+			  "exec": [
+				"pm.test(\"Status code is 200\", function () {",
+				"    pm.response.to.have.status(200);",
+				"});",
+				"",
+				"pm.test(\"Response contains sorted cuisines array\", function () {",
+				"    var jsonData = pm.response.json();",
+				"    pm.expect(jsonData.cuisines).to.be.an('array');",
+				"    ",
+				"    var sortedArray = jsonData.cuisines.sort(function(a, b) {",
+				"        return a.name.localeCompare(b.name);",
+				"    });",
+				"    ",
+				"    pm.expect(jsonData.cuisines).to.deep.equal(sortedArray);",
+				"});"
+			  ],
+			  "type": "text/javascript"
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Sort Menu Items",
+		"request": {
+		  "method": "GET",
+		  "header": [],
+		  "url": {
+			"raw": "http://hungryaustin.uc.r.appspot.com/api/v1/menu_items/sort?sort_by=name&sort_order=asc",
+			"protocol": "http",
+			"host": [
+			  "hungryaustin",
+			  "uc",
+			  "r",
+			  "appspot",
+			  "com"
+			],
+			"path": [
+			  "api",
+			  "v1",
+			  "menu_items",
+			  "sort"
+			],
+			"query": [
+			  {
+				"key": "sort_by",
+				"value": "name"
+			  },
+			  {
+				"key": "sort_order",
+				"value": "asc"
+			  }
+			]
+		  }
+		},
+		"event": [
+		  {
+			"listen": "test",
+			"script": {
+			  "exec": [
+				"pm.test(\"Status code is 200\", function () {",
+				"    pm.response.to.have.status(200);",
+				"});",
+				"",
+				"pm.test(\"Response contains sorted menu_items array\", function () {",
+				"    var jsonData = pm.response.json();",
+				"    pm.expect(jsonData.menu_items).to.be.an('array');",
+				"    ",
+				"    var sortedArray = jsonData.menu_items.sort(function(a, b) {",
+				"        return a.name.localeCompare(b.name);",
+				"    });",
+				"    ",
+				"    pm.expect(jsonData.menu_items).to.deep.equal(sortedArray);",
+				"});"
+			  ],
+			  "type": "text/javascript"
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Search Restaurants",
+		"request": {
+		  "method": "GET",
+		  "header": [],
+		  "url": {
+			"raw": "http://hungryaustin.uc.r.appspot.com/api/v1/restaurants/search?query=pizza",
+			"protocol": "http",
+			"host": [
+			  "hungryaustin",
+			  "uc",
+			  "r",
+			  "appspot",
+			  "com"
+			],
+			"path": [
+			  "api",
+			  "v1",
+			  "restaurants",
+			  "search"
+			],
+			"query": [
+			  {
+				"key": "query",
+				"value": "pizza"
+			  }
+			]
+		  }
+		},
+		"event": [
+		  {
+			"listen": "test",
+			"script": {
+			  "exec": [
+				"pm.test(\"Status code is 200\", function () {",
+				"    pm.response.to.have.status(200);",
+				"});",
+				"",
+				"pm.test(\"Response contains matching restaurants\", function () {",
+				"    var jsonData = pm.response.json();",
+				"    pm.expect(jsonData.restaurants).to.be.an('array');",
+				"    ",
+				"    var query = pm.request.url.query.get('query');",
+				"    jsonData.restaurants.forEach(function(restaurant) {",
+				"        pm.expect(restaurant.name.toLowerCase()).to.include(query.toLowerCase());",
+				"    });",
+				"});"
+			  ],
+			  "type": "text/javascript"
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Search Cuisines",
+		"request": {
+		  "method": "GET",
+		  "header": [],
+		  "url": {
+			"raw": "http://hungryaustin.uc.r.appspot.com/api/v1/cuisines/search?query=italian",
+			"protocol": "http",
+			"host": [
+			  "hungryaustin",
+			  "uc",
+			  "r",
+			  "appspot",
+			  "com"
+			],
+			"path": [
+			  "api",
+			  "v1",
+			  "cuisines",
+			  "search"
+			],
+			"query": [
+			  {
+				"key": "query",
+				"value": "italian"
+			  }
+			]
+		  }
+		},
+		"event": [
+		  {
+			"listen": "test",
+			"script": {
+			  "exec": [
+				"pm.test(\"Status code is 200\", function () {",
+				"    pm.response.to.have.status(200);",
+				"});",
+				"",
+				"pm.test(\"Response contains matching cuisines\", function () {",
+				"    var jsonData = pm.response.json();",
+				"    pm.expect(jsonData.cuisines).to.be.an('array');",
+				"    ",
+				"    var query = pm.request.url.query.get('query');",
+				"    jsonData.cuisines.forEach(function(cuisine) {",
+				"        pm.expect(cuisine.name.toLowerCase()).to.include(query.toLowerCase());",
+				"    });",
+				"});"
+			  ],
+			  "type": "text/javascript"
+			}
+		  }
+		]
+	  },
+	  {
+		"name": "Search Menu Items",
+		"request": {
+		  "method": "GET",
+		  "header": [],
+		  "url": {
+			"raw": "http://hungryaustin.uc.r.appspot.com/api/v1/menu_items/search?query=burger",
+			"protocol": "http",
+			"host": [
+			  "hungryaustin",
+			  "uc",
+			  "r",
+			  "appspot",
+			  "com"
+			],
+			"path": [
+			  "api",
+			  "v1",
+			  "menu_items",
+			  "search"
+			],
+			"query": [
+			  {
+				"key": "query",
+				"value": "burger"
+			  }
+			]
+		  }
+		},
+		"event": [
+		  {
+			"listen": "test",
+			"script": {
+			  "exec": [
+				"pm.test(\"Status code is 200\", function () {",
+				"    pm.response.to.have.status(200);",
+				"});",
+				"",
+				"pm.test(\"Response contains matching menu items\", function () {",
+				"    var jsonData = pm.response.json();",
+				"    pm.expect(jsonData.menu_items).to.be.an('array');",
+				"    ",
+				"    var query = pm.request.url.query.get('query');",
+				"    jsonData.menu_items.forEach(function(menuItem) {",
+				"        pm.expect(menuItem.name.toLowerCase()).to.include(query.toLowerCase());",
+				"    });",
+				"});"
+			  ],
+			  "type": "text/javascript"
+			}
+		  }
+		]
+	  }
+	]
+}

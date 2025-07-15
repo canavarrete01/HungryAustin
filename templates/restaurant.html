@@ -1,0 +1,292 @@
+<!-- PAGE FOR THE RESTAURANT MODEL -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hungry Austin | Restaurants</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@600&family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> -->
+
+        <!--CSS-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="../static/css/nav_bar.css">
+        <link rel="stylesheet" href="../static/css/layout.css">
+
+        <style>
+          /* Specific to Resaurant.html */
+          .h1{
+            margin-left: 20px;
+            position: fixed;
+          }
+
+          .img {
+            width: 100%;
+            display: block;
+            height: 100%;
+            object-fit: cover;
+          }
+          body{
+          font-family: "Antonio", sans-serif !important;
+          font-weight: 500;
+          font-size:large;
+        }
+          .card-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+
+        .card {
+            /* width: calc(33.33% - 20px);  */
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+        
+        .row t{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+        gap : 1rem
+        } 
+        
+
+        </style>
+    </head>
+    <body>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" 
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" 
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+
+      <!--NavBar Bootstrap-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-navbar">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="{{url_for('home')}}"><i class="fas fa-utensils"></i> Home<span class="sr-only">(current)</span></a>
+              <li class="nav-item">
+                <a class="nav-link" href="{{url_for('about')}}"><i class="fas fa-info-circle"></i> About Us</a>
+                <a class="nav-link" href="{{url_for('restaurant')}}"><i class="fas fa-utensils"></i> Restaurants</a>
+                <a class="nav-link" href="{{url_for('cuisines')}}"><i class="fas fa-pepper-hot"></i> Cuisines</a>
+                <a class="nav-link" href="{{url_for('dishes')}}"><i class="fas fa-utensil-spoon"></i> Dishes</a>
+              </li>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+        <div class="main">
+            <!-- Second Header -->
+            <div class="top">
+              <div class="p-3 p-md-4 mb-3 rounded text-body-emphasis bg-body-secondary">
+                <div class="col-lg-6 px-0">
+                  <h2 class="display-4 fst-italic fw-normal title-style">Restaurants of Austin</h2>
+                  <p class="lead my-3">Find your new favorite spot in Austin, Texas here! Browse through our selection of restaurants and 
+                    filter through options to find the best restaurant for you.
+                  </p>
+                  <p><a href="https://www.opentable.com/metro/austin-restaurants">Book on OpenTable...</a></p>
+                </div>
+              </div>
+            </div>
+            
+          <div class = "row">
+          <!-- Sort drop down menu -->
+          <div class = "col">
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sort By:
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="{{ url_for('restaurant', sort_by=None, sort_order=None) }}">Name (Default Order)</a>
+              <a class="dropdown-item" href="{{ url_for('restaurant', sort_by='name', sort_order='asc') }}"">Name (Ascending)</a>
+              <a class="dropdown-item" href="{{ url_for('restaurant', sort_by='name', sort_order='desc') }}">Name (Descending)</a>
+              <a class="dropdown-item" href="{{ url_for('restaurant', sort_by=None, sort_order=None) }}">Rating (Default Order)</a>
+              <a class="dropdown-item" href="{{ url_for('restaurant', sort_by='rating', sort_order='asc') }}"">Rating (Ascending)</a>
+              <a class="dropdown-item" href="{{ url_for('restaurant', sort_by='rating', sort_order='desc') }}">Rating (Descending)</a>
+            </div>
+          </div>
+        </div>
+
+        <div class = "col  move-left">
+          <form action="{{url_for('restaurant')}}" method="GET" class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" name="query" placeholder="Search by Name">
+            <button class="btn btn-primary my-2 my-sm-0 " type="submit">Search</button>
+          </form>
+        </div>
+        </div>
+
+        <div class = 'container'>
+          <div class = "row t">
+          {% for restaurant in restaurants %}
+          <div class = "card-content" style = "display: none">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+
+              <div class="col-md-4">
+                <img src= "{{restaurant.image}}" class="img-fluid rounded-start"  alt="{{restaurant.name}}'s Food" style="width:300px;height:200px;">
+              </div>
+
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="{{ url_for('restaurant_menu', id=restaurant.id) }}">{{restaurant.name | safe}}</a></h5>
+                  <p class="card-text">Phone: <em>{{restaurant.phone}}</em></p>
+                  <p>Restaurant Details: </p>
+                  {% for tags in restaurant.tags %}
+                    <!-- Make the tags that are cuisines clickable to cuisines -->
+                      <span class="badge badge-pill badge-primary">{{tags}}</span>
+                  {% endfor %}
+                  
+                  <span class="badge badge-pill badge-secondary">{{restaurant.price}}</span>
+                  <span class="badge badge-pill badge-success">{{restaurant.location}}</span>
+                  <span class="badge badge-pill badge-info">Rating: {{restaurant.rating}}</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+        
+    </div>
+
+    <nav aria-label="...">
+      <ul class="pagination justify-content-center">
+      </ul>
+    </nav>
+
+
+
+
+           <!-- First Layer Footer -->
+           <footer class="first-layer-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <ul class="nav justify-content-center pb-4 mb-3">
+                    <li class="nav-item"><a href="{{url_for('home')}}" class="nav-link px-2 text-body-secondary"><i class="fas fa-home"></i> Home</a></li>
+                    <li class="nav-item"><a href="{{url_for('about')}}" class="nav-link px-2 text-body-secondary"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li class="nav-item"><a href="{{url_for('restaurant')}}" class="nav-link px-2 text-body-secondary"><i class="fas fa-utensils"></i> Restaurants</a></li>
+                    <li class="nav-item"><a href="{{url_for('cuisines')}}" class="nav-link px-2 text-body-secondary"><i class="fas fa-pepper-hot"></i> Cuisines</a></li>
+                    <li class="nav-item"><a href="{{url_for('dishes')}}" class="nav-link px-2 text-body-secondary"><i class="fas fa-utensil-spoon"></i> Dishes</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+  
+          <!-- Second Layer Footer -->
+          <footer class="second-layer-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p class="text-center text-body-secondary">&copy; 2024 Hungry Austin</p>
+              </div>
+            </div>
+          </div>
+          </footer>
+  
+        
+        <!-- Sources -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+                        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" 
+                        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" 
+                        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@floating-ui/core@1.6.0"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.6.3"></script>
+    
+        
+            <script type="text/javascript">
+
+              // Referenced video: https://youtu.be/GQejHTFwyLo?si=1Js_5xTchqAuAAj9 !!! 
+
+              function pageList (total_pages, page, l){
+                function range(begin, end){
+                  return Array.from(Array (end - begin + 1), (_, i) => i + begin) ;
+                }
+  
+                var side_width = l < 9 ? 1 : 2;
+                var l_width = (l - side_width * 2 - 3) >> 1;
+                var r_width = (l - side_width * 2 - 3) >> 1;
+  
+                if(total_pages <= l){
+                  return range(1, total_pages);
+                }
+                if(page <= l - side_width - 1 - r_width){
+                  return range(1, l - side_width - 1).concat(0, range(total_pages - side_width + 1, total_pages));
+                }
+                if(page >= total_pages - side_width - 1 - r_width){
+                  return range(1, side_width).concat(0, range(total_pages - side_width - 1 - r_width- l_width, total_pages));
+      
+                }
+                return range(1, side_width).concat(0,range(page - l_width, page + r_width), 0 , range(total_pages - side_width + 1, total_pages ));          
+              
+              }
+  
+              $(function(){
+                var numItems = $(".card-content .card").length;
+                var page_lim = 40;
+                var total_pages = Math.round(numItems/page_lim);
+                var pagination_size = 5;
+                var curr_page;
+  
+                function showPage(whichPage){
+                  if(whichPage < 1 || whichPage > total_pages) return false; 
+                  curr_page = whichPage;
+  
+                  $(".card-content .card").hide().slice((curr_page - 1)* page_lim, curr_page * page_lim).show();
+                  
+                  $(".pagination li").slice(1, -1).remove();
+  
+                  pageList(total_pages, curr_page, pagination_size).forEach(item => {
+                    $("<li>").addClass("page-item").addClass(item ? "current-page": "dots")
+                      .toggleClass("active", item == curr_page).append($("<a>").addClass("page-link")
+                      .attr({href: "javascript::void(0)"}).text(item || "...")).insertBefore(".next-page");
+  
+                  });
+                  $(".previous-page").toggleClass("disable", curr_page == 1);
+                  $(".next-page").toggleClass("disable", curr_page == total_pages);
+                  return true;
+                }
+                $(".pagination").append(
+                  $("<li>").addClass("page-item").addClass("previous-page").append($("<a>").addClass("page-link").attr({href: "javascript:void(0)"}).text("Prev")),
+                    $("<li>").addClass("page-item").addClass("next-page").append($("<a>").addClass("page-link").attr({href: "javascript:void(0)"}).text("Next")),
+                );
+                $(".card-content").show();
+                showPage(1)
+  
+                $(document).on("click", ".pagination li.current-page:not(.active)", function(){
+                  return showPage(+$(this).text());
+                })
+  
+                $(".next-page").on("click", function(){
+                  return showPage(curr_page + 1)
+                });
+  
+                $(".previous-page").on("click", function(){
+                  return showPage(curr_page - 1)
+                });
+              });
+  
+  
+            </script>
+             <script type="text/javascript">
+            $(document).ready(function() {
+              $(".dropdown-toggle").dropdown();
+             });
+            </script>
+        </body>
+  </html>

@@ -1,0 +1,41 @@
+body{
+  margin: 0px;
+ }
+
+.navbar {
+    background-color: #BF5700; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; /* Full width */
+    padding: 0;
+    margin: 0;
+    border: 0;
+    z-index: 9999; /* make nav bar in front of everything */
+  }
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: white !important;
+    /* font-family: 'Verdana', sans-serif; */
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+.navbar a:hover {
+    background-color: #F2ECE6;
+    color: black !important
+  }
+
+  .custom-nav .nav-link {
+    color: white; /* Specify your desired text color here */
+}
+
+/* Main content */
+.main {
+    margin-top: 75px;
+    margin-left: 15px;
+    margin-right: 15px; /* Add a top margin to avoid content overlay */
+    /* font-family: 'American Typewriter', serif */
+  }

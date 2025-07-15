@@ -1,0 +1,2357 @@
+[
+    {
+        "name": {
+            "common": "Singapore",
+            "official": "Republic of Singapore",
+            "nativeName": {
+                "eng": {
+                    "official": "Republic of Singapore",
+                    "common": "Singapore"
+                },
+                "zho": {
+                    "official": "\u65b0\u52a0\u5761\u5171\u548c\u56fd",
+                    "common": "\u65b0\u52a0\u5761"
+                },
+                "msa": {
+                    "official": "Republik Singapura",
+                    "common": "Singapura"
+                },
+                "tam": {
+                    "official": "\u0b9a\u0bbf\u0b99\u0bcd\u0b95\u0baa\u0bcd\u0baa\u0bc2\u0bb0\u0bcd \u0b95\u0bc1\u0b9f\u0bbf\u0baf\u0bb0\u0b9a\u0bc1",
+                    "common": "\u0b9a\u0bbf\u0b99\u0bcd\u0b95\u0baa\u0bcd\u0baa\u0bc2\u0bb0\u0bcd"
+                }
+            }
+        },
+        "tld": [
+            ".sg",
+            ".\u65b0\u52a0\u5761",
+            ".\u0b9a\u0bbf\u0b99\u0bcd\u0b95\u0baa\u0bcd\u0baa\u0bc2\u0bb0\u0bcd"
+        ],
+        "cca2": "SG",
+        "ccn3": "702",
+        "cca3": "SGP",
+        "cioc": "SGP",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "SGD": {
+                "name": "Singapore dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "5"
+            ]
+        },
+        "capital": [
+            "Singapore"
+        ],
+        "altSpellings": [
+            "SG",
+            "Singapura",
+            "Republik Singapura",
+            "\u65b0\u52a0\u5761\u5171\u548c\u56fd"
+        ],
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": {
+            "eng": "English",
+            "zho": "Chinese",
+            "msa": "Malay",
+            "tam": "Tamil"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0633\u0646\u063a\u0627\u0641\u0648\u0631\u0629",
+                "common": "\u0633\u0646\u063a\u0627\u0641\u0648\u0631\u0629"
+            },
+            "bre": {
+                "official": "Republik Singapour",
+                "common": "Singapour"
+            },
+            "ces": {
+                "official": "Singapursk\u00e1 republika",
+                "common": "Singapur"
+            },
+            "cym": {
+                "official": "Republic of Singapore",
+                "common": "Singapore"
+            },
+            "deu": {
+                "official": "Republik Singapur",
+                "common": "Singapur"
+            },
+            "est": {
+                "official": "Singapuri Vabariik",
+                "common": "Singapur"
+            },
+            "fin": {
+                "official": "Singaporen tasavalta",
+                "common": "Singapore"
+            },
+            "fra": {
+                "official": "R\u00e9publique de Singapour",
+                "common": "Singapour"
+            },
+            "hrv": {
+                "official": "Republika Singapur",
+                "common": "Singapur"
+            },
+            "hun": {
+                "official": "Szingap\u00fari K\u00f6zt\u00e1rsas\u00e1g",
+                "common": "Szingap\u00far"
+            },
+            "ita": {
+                "official": "Repubblica di Singapore",
+                "common": "Singapore"
+            },
+            "jpn": {
+                "official": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb\u5171\u548c\u56fd",
+                "common": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb"
+            },
+            "kor": {
+                "official": "\uc2f1\uac00\ud3ec\ub974 \uacf5\ud654\uad6d",
+                "common": "\uc2f1\uac00\ud3ec\ub974"
+            },
+            "nld": {
+                "official": "Republiek Singapore",
+                "common": "Singapore"
+            },
+            "per": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0633\u0646\u06af\u0627\u067e\u0648\u0631",
+                "common": "\u0633\u0646\u06af\u0627\u067e\u0648\u0631"
+            },
+            "pol": {
+                "official": "Republika Singapuru",
+                "common": "Singapur"
+            },
+            "por": {
+                "official": "Rep\u00fablica de Singapura",
+                "common": "Singapura"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0438\u043d\u0433\u0430\u043f\u0443\u0440",
+                "common": "\u0421\u0438\u043d\u0433\u0430\u043f\u0443\u0440"
+            },
+            "slk": {
+                "official": "Singapursk\u00e1 republika",
+                "common": "Singapur"
+            },
+            "spa": {
+                "official": "Rep\u00fablica de Singapur",
+                "common": "Singapur"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0438\u043d\u0433\u0430\u043f\u0443\u0440",
+                "common": "\u0421\u0438\u043d\u0433\u0430\u043f\u0443\u0440"
+            },
+            "swe": {
+                "official": "Republiken Singapore",
+                "common": "Singapore"
+            },
+            "tur": {
+                "official": "Singapur Cumhuriyeti",
+                "common": "Singapur"
+            },
+            "urd": {
+                "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0633\u0646\u06af\u0627\u067e\u0648\u0631",
+                "common": "\u0633\u0646\u06af\u0627\u067e\u0648\u0631"
+            }
+        },
+        "latlng": [
+            1.36666666,
+            103.8
+        ],
+        "landlocked": false,
+        "area": 710.0,
+        "demonyms": {
+            "eng": {
+                "f": "Singaporean",
+                "m": "Singaporean"
+            },
+            "fra": {
+                "f": "Singapourienne",
+                "m": "Singapourien"
+            }
+        },
+        "flag": "\ud83c\uddf8\ud83c\uddec",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/QbQt9Y9b5KFzsahV6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/536780"
+        },
+        "population": 5685807,
+        "fifa": "SIN",
+        "car": {
+            "signs": [
+                "SGP"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+08:00"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/sg.png",
+            "svg": "https://flagcdn.com/sg.svg",
+            "alt": "The flag of Singapore is composed of two equal horizontal bands of red and white. On the hoist side of the red band is a fly-side facing white crescent which partially encloses five small five-pointed white stars arranged in the shape of a pentagon."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/sg.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/sg.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                1.28,
+                103.85
+            ]
+        },
+        "postalCode": {
+            "format": "######",
+            "regex": "^(\\d{6})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Laos",
+            "official": "Lao People's Democratic Republic",
+            "nativeName": {
+                "lao": {
+                    "official": "\u0eaa\u0eb2\u0e97\u0eb2\u0ea5\u0eb0\u0e99\u0eb0 \u0e8a\u0eb2\u0e97\u0eb4\u0e9b\u0eb0\u0ec4\u0e95 \u0e84\u0ebb\u0e99\u0ea5\u0eb2\u0ea7 \u0e82\u0ead\u0e87",
+                    "common": "\u0eaa\u0e9b\u0e9b\u0ea5\u0eb2\u0ea7"
+                }
+            }
+        },
+        "tld": [
+            ".la"
+        ],
+        "cca2": "LA",
+        "ccn3": "418",
+        "cca3": "LAO",
+        "cioc": "LAO",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "LAK": {
+                "name": "Lao kip",
+                "symbol": "\u20ad"
+            }
+        },
+        "idd": {
+            "root": "+8",
+            "suffixes": [
+                "56"
+            ]
+        },
+        "capital": [
+            "Vientiane"
+        ],
+        "altSpellings": [
+            "LA",
+            "Lao",
+            "Lao People's Democratic Republic",
+            "Sathalanalat Paxathipatai Paxaxon Lao"
+        ],
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": {
+            "lao": "Lao"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0644\u0627\u0648\u0633 \u0627\u0644\u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a\u0629 \u0627\u0644\u0634\u0639\u0628\u064a\u0629",
+                "common": "\u0644\u0627\u0648\u0633"
+            },
+            "bre": {
+                "official": "Republik Demokratel ar Bobl Lao",
+                "common": "Laos"
+            },
+            "ces": {
+                "official": "Laosk\u00e1 lidov\u011b demokratick\u00e1 republika",
+                "common": "Laos"
+            },
+            "cym": {
+                "official": "Lao People's Democratic Republic",
+                "common": "Laos"
+            },
+            "deu": {
+                "official": "Demokratische Volksrepublik Laos",
+                "common": "Laos"
+            },
+            "est": {
+                "official": "Laose Demokraatlik Rahvavabariik",
+                "common": "Laos"
+            },
+            "fin": {
+                "official": "Laosin demokraattinen kansantasavalta",
+                "common": "Laos"
+            },
+            "fra": {
+                "official": "R\u00e9publique d\u00e9mocratique populaire lao",
+                "common": "Laos"
+            },
+            "hrv": {
+                "official": "Narodna Demokratska Republika",
+                "common": "Laos"
+            },
+            "hun": {
+                "official": "Laoszi N\u00e9pi Demokratikus K\u00f6zt\u00e1rsas\u00e1g",
+                "common": "Laosz"
+            },
+            "ita": {
+                "official": "Repubblica democratica popolare del Laos",
+                "common": "Laos"
+            },
+            "jpn": {
+                "official": "\u30e9\u30aa\u30b9\u4eba\u6c11\u6c11\u4e3b\u5171\u548c\u56fd",
+                "common": "\u30e9\u30aa\u30b9\u4eba\u6c11\u6c11\u4e3b\u5171\u548c\u56fd"
+            },
+            "kor": {
+                "official": "\ub77c\uc624 \uc778\ubbfc \ubbfc\uc8fc \uacf5\ud654\uad6d",
+                "common": "\ub77c\uc624\uc2a4"
+            },
+            "nld": {
+                "official": "Lao Democratische Volksrepubliek",
+                "common": "Laos"
+            },
+            "per": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u062f\u0645\u0648\u06a9\u0631\u0627\u062a\u06cc\u06a9 \u062e\u0644\u0642 \u0644\u0627\u0626\u0648\u0633",
+                "common": "\u0644\u0627\u0626\u0648\u0633"
+            },
+            "pol": {
+                "official": "Laota\u0144ska Republika Ludowo-Demokratyczna",
+                "common": "Laos"
+            },
+            "por": {
+                "official": "Laos, Rep\u00fablica Democr\u00e1tica",
+                "common": "Laos"
+            },
+            "rus": {
+                "official": "\u041b\u0430\u043e\u0441\u0441\u043a\u0430\u044f \u041d\u0430\u0440\u043e\u0434\u043d\u043e-\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+                "common": "\u041b\u0430\u043e\u0441"
+            },
+            "slk": {
+                "official": "Laosk\u00e1 \u013eudovodemokratick\u00e1 republika",
+                "common": "Laos"
+            },
+            "spa": {
+                "official": "Rep\u00fablica Democr\u00e1tica Popular Lao",
+                "common": "Laos"
+            },
+            "srp": {
+                "official": "\u041b\u0430\u043e\u0448\u043a\u0430 \u041d\u0430\u0440\u043e\u0434\u043d\u0430 \u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0441\u043a\u0430 \u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430",
+                "common": "\u041b\u0430\u043e\u0441"
+            },
+            "swe": {
+                "official": "Demokratiska folkrepubliken Laos",
+                "common": "Laos"
+            },
+            "tur": {
+                "official": "Laos Demokratik Halk Cumhuriyeti",
+                "common": "Laos"
+            },
+            "urd": {
+                "official": "\u0639\u0648\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0644\u0627\u0624",
+                "common": "\u0644\u0627\u0624\u0633"
+            },
+            "zho": {
+                "official": "\u8001\u631d\u4eba\u6c11\u6c11\u4e3b\u5171\u548c\u56fd",
+                "common": "\u8001\u631d"
+            }
+        },
+        "latlng": [
+            18.0,
+            105.0
+        ],
+        "landlocked": true,
+        "borders": [
+            "MMR",
+            "KHM",
+            "CHN",
+            "THA",
+            "VNM"
+        ],
+        "area": 236800.0,
+        "demonyms": {
+            "eng": {
+                "f": "Laotian",
+                "m": "Laotian"
+            },
+            "fra": {
+                "f": "Laotienne",
+                "m": "Laotien"
+            }
+        },
+        "flag": "\ud83c\uddf1\ud83c\udde6",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/F3asVB7sRKgSnwbE7",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/49903"
+        },
+        "population": 7275556,
+        "gini": {
+            "2018": 38.8
+        },
+        "fifa": "LAO",
+        "car": {
+            "signs": [
+                "LAO"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+07:00"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/la.png",
+            "svg": "https://flagcdn.com/la.svg",
+            "alt": "The flag of Laos is composed of three horizontal bands of red, blue and red. The blue band is twice the height of the red bands and bears a white circle at its center."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/la.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/la.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                17.97,
+                102.6
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Indonesia",
+            "official": "Republic of Indonesia",
+            "nativeName": {
+                "ind": {
+                    "official": "Republik Indonesia",
+                    "common": "Indonesia"
+                }
+            }
+        },
+        "tld": [
+            ".id"
+        ],
+        "cca2": "ID",
+        "ccn3": "360",
+        "cca3": "IDN",
+        "cioc": "INA",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "IDR": {
+                "name": "Indonesian rupiah",
+                "symbol": "Rp"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "2"
+            ]
+        },
+        "capital": [
+            "Jakarta"
+        ],
+        "altSpellings": [
+            "ID",
+            "Republic of Indonesia",
+            "Republik Indonesia"
+        ],
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": {
+            "ind": "Indonesian"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0625\u0646\u062f\u0648\u0646\u064a\u0633\u064a\u0627",
+                "common": "\u0625\u0646\u062f\u0648\u0646\u064a\u0633\u064a\u0627"
+            },
+            "bre": {
+                "official": "Republik Indonezia",
+                "common": "Indonezia"
+            },
+            "ces": {
+                "official": "Indon\u00e9sk\u00e1 republika",
+                "common": "Indon\u00e9sie"
+            },
+            "cym": {
+                "official": "Republic of Indonesia",
+                "common": "Indonesia"
+            },
+            "deu": {
+                "official": "Republik Indonesien",
+                "common": "Indonesien"
+            },
+            "est": {
+                "official": "Indoneesia Vabariik",
+                "common": "Indoneesia"
+            },
+            "fin": {
+                "official": "Indonesian tasavalta",
+                "common": "Indonesia"
+            },
+            "fra": {
+                "official": "R\u00e9publique d'Indon\u00e9sie",
+                "common": "Indon\u00e9sie"
+            },
+            "hrv": {
+                "official": "Republika Indonezija",
+                "common": "Indonezija"
+            },
+            "hun": {
+                "official": "Indon\u00e9z K\u00f6zt\u00e1rsas\u00e1g",
+                "common": "Indon\u00e9zia"
+            },
+            "ita": {
+                "official": "Repubblica di Indonesia",
+                "common": "Indonesia"
+            },
+            "jpn": {
+                "official": "\u30a4\u30f3\u30c9\u30cd\u30b7\u30a2\u5171\u548c\u56fd",
+                "common": "\u30a4\u30f3\u30c9\u30cd\u30b7\u30a2"
+            },
+            "kor": {
+                "official": "\uc778\ub3c4\ub124\uc2dc\uc544 \uacf5\ud654\uad6d",
+                "common": "\uc778\ub3c4\ub124\uc2dc\uc544"
+            },
+            "nld": {
+                "official": "Republiek Indonesi\u00eb",
+                "common": "Indonesi\u00eb"
+            },
+            "per": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0627\u0646\u062f\u0648\u0646\u0632\u06cc",
+                "common": "\u0627\u0646\u062f\u0648\u0646\u0632\u06cc"
+            },
+            "pol": {
+                "official": "Republika Indonezji",
+                "common": "Indonezja"
+            },
+            "por": {
+                "official": "Rep\u00fablica da Indon\u00e9sia",
+                "common": "Indon\u00e9sia"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u044f",
+                "common": "\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u044f"
+            },
+            "slk": {
+                "official": "Indon\u00e9zska republika",
+                "common": "Indon\u00e9zia"
+            },
+            "spa": {
+                "official": "Rep\u00fablica de Indonesia",
+                "common": "Indonesia"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u0458\u0430",
+                "common": "\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Republiken Indonesien",
+                "common": "Indonesien"
+            },
+            "tur": {
+                "official": "Endonezya Cumhuriyeti",
+                "common": "Endonezya"
+            },
+            "urd": {
+                "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u0646\u0688\u0648\u0646\u06cc\u0634\u06cc\u0627",
+                "common": "\u0627\u0646\u0688\u0648\u0646\u06cc\u0634\u06cc\u0627"
+            },
+            "zho": {
+                "official": "\u5370\u5ea6\u5c3c\u897f\u4e9a\u5171\u548c\u56fd",
+                "common": "\u5370\u5ea6\u5c3c\u897f\u4e9a"
+            }
+        },
+        "latlng": [
+            -5.0,
+            120.0
+        ],
+        "landlocked": false,
+        "borders": [
+            "TLS",
+            "MYS",
+            "PNG"
+        ],
+        "area": 1904569.0,
+        "demonyms": {
+            "eng": {
+                "f": "Indonesian",
+                "m": "Indonesian"
+            },
+            "fra": {
+                "f": "Indon\u00e9sienne",
+                "m": "Indon\u00e9sien"
+            }
+        },
+        "flag": "\ud83c\uddee\ud83c\udde9",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/9gfPupm5bffixiFJ6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/21335"
+        },
+        "population": 273523621,
+        "gini": {
+            "2019": 38.2
+        },
+        "fifa": "IDN",
+        "car": {
+            "signs": [
+                "RI"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+07:00",
+            "UTC+08:00",
+            "UTC+09:00"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/id.png",
+            "svg": "https://flagcdn.com/id.svg",
+            "alt": "The flag of Indonesia is composed of two equal horizontal bands of red and white."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/id.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/id.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -6.17,
+                106.82
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Timor-Leste",
+            "official": "Democratic Republic of Timor-Leste",
+            "nativeName": {
+                "por": {
+                    "official": "Rep\u00fablica Democr\u00e1tica de Timor-Leste",
+                    "common": "Timor-Leste"
+                },
+                "tet": {
+                    "official": "Rep\u00fablika Demokr\u00e1tika Tim\u00f3r-Leste",
+                    "common": "Tim\u00f3r-Leste"
+                }
+            }
+        },
+        "tld": [
+            ".tl"
+        ],
+        "cca2": "TL",
+        "ccn3": "626",
+        "cca3": "TLS",
+        "cioc": "TLS",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "USD": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "70"
+            ]
+        },
+        "capital": [
+            "Dili"
+        ],
+        "altSpellings": [
+            "TL",
+            "East Timor",
+            "Democratic Republic of Timor-Leste",
+            "Rep\u00fablica Democr\u00e1tica de Timor-Leste",
+            "Rep\u00fablika Demokr\u00e1tika Tim\u00f3r-Leste",
+            "Tim\u00f3r Lorosa'e",
+            "Timor Lorosae"
+        ],
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": {
+            "por": "Portuguese",
+            "tet": "Tetum"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u062a\u064a\u0645\u0648\u0631 \u0627\u0644\u0634\u0631\u0642\u064a\u0629 \u0627\u0644\u062f\u064a\u0645\u0642\u0631\u0627\u0637\u064a\u0629",
+                "common": "\u062a\u064a\u0645\u0648\u0631 \u0627\u0644\u0634\u0631\u0642\u064a\u0629"
+            },
+            "bre": {
+                "official": "Republik demakratel Timor ar Reter",
+                "common": "Timor ar Reter"
+            },
+            "ces": {
+                "official": "Demokratick\u00e1 republika V\u00fdchodn\u00ed Timor",
+                "common": "V\u00fdchodn\u00ed Timor"
+            },
+            "cym": {
+                "official": "Democratic Republic of Timor-Leste",
+                "common": "Timor-Leste"
+            },
+            "deu": {
+                "official": "Demokratische Republik Timor-Leste",
+                "common": "Osttimor"
+            },
+            "est": {
+                "official": "Timor-Leste Demokraatlik Vabariik",
+                "common": "Ida-Timor"
+            },
+            "fin": {
+                "official": "It\u00e4-Timorin demokraattinen tasavalta",
+                "common": "It\u00e4-Timor"
+            },
+            "fra": {
+                "official": "R\u00e9publique d\u00e9mocratique du Timor oriental",
+                "common": "Timor oriental"
+            },
+            "hrv": {
+                "official": "Demokratska Republika Timor-Leste",
+                "common": "Isto\u010dni Timor"
+            },
+            "hun": {
+                "official": "Kelet-timori Demokratikus K\u00f6zt\u00e1rsas\u00e1g",
+                "common": "Kelet-Timor"
+            },
+            "ita": {
+                "official": "Repubblica Democratica di Timor Est",
+                "common": "Timor Est"
+            },
+            "jpn": {
+                "official": "\u6771\u30c6\u30a3\u30e2\u30fc\u30eb\u6c11\u4e3b\u5171\u548c\u56fd",
+                "common": "\u6771\u30c6\u30a3\u30e2\u30fc\u30eb"
+            },
+            "kor": {
+                "official": "\ub3d9\ud2f0\ubaa8\ub974 \ubbfc\uc8fc \uacf5\ud654\uad6d",
+                "common": "\ub3d9\ud2f0\ubaa8\ub974"
+            },
+            "nld": {
+                "official": "Democratische Republiek Oost-Timor",
+                "common": "Oost-Timor"
+            },
+            "per": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u062f\u0645\u0648\u06a9\u0631\u0627\u062a\u06cc\u06a9 \u062a\u06cc\u0645\u0648\u0631 \u0634\u0631\u0642\u06cc",
+                "common": "\u062a\u06cc\u0645\u0648\u0631 \u0634\u0631\u0642\u06cc"
+            },
+            "pol": {
+                "official": "Demokratyczna Republika Timoru Wschodniego",
+                "common": "Timor Wschodni"
+            },
+            "por": {
+                "official": "Rep\u00fablica Democr\u00e1tica de Timor-Leste",
+                "common": "Timor-Leste"
+            },
+            "rus": {
+                "official": "\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0422\u0438\u043c\u043e\u0440 -\u041b\u0435\u0448\u0442\u0438",
+                "common": "\u0412\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u0422\u0438\u043c\u043e\u0440"
+            },
+            "slk": {
+                "official": "V\u00fdchodotimorsk\u00e1 demokratick\u00e1 republika",
+                "common": "V\u00fdchodn\u00fd Timor"
+            },
+            "spa": {
+                "official": "Rep\u00fablica Democr\u00e1tica de Timor-Leste",
+                "common": "Timor Oriental"
+            },
+            "srp": {
+                "official": "\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0441\u043a\u0430 \u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0418\u0441\u0442\u043e\u0447\u043d\u0438 \u0422\u0438\u043c\u043e\u0440",
+                "common": "\u0418\u0441\u0442\u043e\u0447\u043d\u0438 \u0422\u0438\u043c\u043e\u0440"
+            },
+            "swe": {
+                "official": "Demokratiska republiken \u00d6sttimor",
+                "common": "\u00d6sttimor"
+            },
+            "tur": {
+                "official": "Do\u011fu Timor Demokratik Cumhuriyeti",
+                "common": "Do\u011fu Timor"
+            },
+            "urd": {
+                "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u0634\u0631\u0642\u06cc \u062a\u06cc\u0645\u0648\u0631",
+                "common": "\u0645\u0634\u0631\u0642\u06cc \u062a\u06cc\u0645\u0648\u0631"
+            },
+            "zho": {
+                "official": "\u4e1c\u5e1d\u6c76\u6c11\u4e3b\u5171\u548c\u56fd",
+                "common": "\u4e1c\u5e1d\u6c76"
+            }
+        },
+        "latlng": [
+            -8.83333333,
+            125.91666666
+        ],
+        "landlocked": false,
+        "borders": [
+            "IDN"
+        ],
+        "area": 14874.0,
+        "demonyms": {
+            "eng": {
+                "f": "East Timorese",
+                "m": "East Timorese"
+            },
+            "fra": {
+                "f": "Est-timoraise",
+                "m": "Est-timorais"
+            }
+        },
+        "flag": "\ud83c\uddf9\ud83c\uddf1",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/sFqBC9zjgUXPR1iTA",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/305142"
+        },
+        "population": 1318442,
+        "gini": {
+            "2014": 28.7
+        },
+        "fifa": "TLS",
+        "car": {
+            "signs": [
+                "TL"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+09:00"
+        ],
+        "continents": [
+            "Oceania"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/tl.png",
+            "svg": "https://flagcdn.com/tl.svg",
+            "alt": "The flag of Timor-Leste has a red field with two isosceles triangles which share a common base on the hoist end. The smaller black triangle, which bears a five-pointed white star at its center and spans one-third the width of the field, is superimposed on the larger yellow triangle that extends to the center of the field."
+        },
+        "coatOfArms": {},
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                -8.58,
+                125.6
+            ]
+        }
+    },
+    {
+        "name": {
+            "common": "Myanmar",
+            "official": "Republic of the Union of Myanmar",
+            "nativeName": {
+                "mya": {
+                    "official": "\u1015\u103c\u100a\u103a\u1011\u1031\u102c\u1004\u103a\u1005\u102f \u101e\u1019\u1039\u1019\u1010 \u1019\u103c\u1014\u103a\u1019\u102c\u1014\u102d\u102f\u1004\u103a\u1004\u1036\u1010\u1031\u102c\u103a",
+                    "common": "\u1019\u103c\u1014\u103a\u1019\u102c"
+                }
+            }
+        },
+        "tld": [
+            ".mm"
+        ],
+        "cca2": "MM",
+        "ccn3": "104",
+        "cca3": "MMR",
+        "cioc": "MYA",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "MMK": {
+                "name": "Burmese kyat",
+                "symbol": "Ks"
+            }
+        },
+        "idd": {
+            "root": "+9",
+            "suffixes": [
+                "5"
+            ]
+        },
+        "capital": [
+            "Naypyidaw"
+        ],
+        "altSpellings": [
+            "MM",
+            "Burma",
+            "Republic of the Union of Myanmar",
+            "Pyidaunzu Thanm\u0103da My\u0103ma Nainngandaw"
+        ],
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": {
+            "mya": "Burmese"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0627\u062a\u062d\u0627\u062f \u0645\u064a\u0627\u0646\u0645\u0627\u0631",
+                "common": "\u0645\u064a\u0627\u0646\u0645\u0627\u0631"
+            },
+            "bre": {
+                "official": "Republik Unaniezh Myanmar",
+                "common": "Myanmar"
+            },
+            "ces": {
+                "official": "Republika Myanmarsk\u00fd svaz",
+                "common": "Myanmar"
+            },
+            "cym": {
+                "official": "Republic of the Union of Myanmar",
+                "common": "Myanmar"
+            },
+            "deu": {
+                "official": "Republik der Union Myanmar",
+                "common": "Myanmar"
+            },
+            "est": {
+                "official": "Myanmari Liidu Vabariik",
+                "common": "Myanmar"
+            },
+            "fin": {
+                "official": "Myanmarin liiton tasavalta",
+                "common": "Myanmar"
+            },
+            "fra": {
+                "official": "R\u00e9publique de l'Union du Myanmar",
+                "common": "Birmanie"
+            },
+            "hrv": {
+                "official": "Republika Unije Mijanmar",
+                "common": "Mijanmar"
+            },
+            "hun": {
+                "official": "Mianmari \u00c1llamsz\u00f6vets\u00e9g K\u00f6zt\u00e1rsas\u00e1ga",
+                "common": "Mianmar"
+            },
+            "ita": {
+                "official": "Repubblica dell'Unione di Myanmar",
+                "common": "Birmania"
+            },
+            "jpn": {
+                "official": "\u30df\u30e3\u30f3\u30de\u30fc\u9023\u90a6\u5171\u548c\u56fd",
+                "common": "\u30df\u30e3\u30f3\u30de\u30fc"
+            },
+            "kor": {
+                "official": "\ubbf8\uc580\ub9c8 \uc5f0\ubc29 \uacf5\ud654\uad6d",
+                "common": "\ubbf8\uc580\ub9c8"
+            },
+            "nld": {
+                "official": "Republiek van de Unie van Myanmar",
+                "common": "Myanmar"
+            },
+            "per": {
+                "official": "\u0627\u062a\u062d\u0627\u062f\u06cc\u0647 \u062c\u0645\u0647\u0648\u0631\u06cc \u0645\u06cc\u0627\u0646\u0645\u0627\u0631",
+                "common": "\u0645\u06cc\u0627\u0646\u0645\u0627\u0631"
+            },
+            "pol": {
+                "official": "Republika Zwi\u0105zku Mjanmy",
+                "common": "Mjanma"
+            },
+            "por": {
+                "official": "Rep\u00fablica da Uni\u00e3o de Myanmar",
+                "common": "Myanmar"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u043e\u044e\u0437\u0430 \u041c\u044c\u044f\u043d\u043c\u0430",
+                "common": "\u041c\u044c\u044f\u043d\u043c\u0430"
+            },
+            "slk": {
+                "official": "Mjanmarsk\u00e1 zv\u00e4zov\u00e1 republika",
+                "common": "Mjanmarsko"
+            },
+            "spa": {
+                "official": "Rep\u00fablica de la Uni\u00f3n de Myanmar",
+                "common": "Myanmar"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0430\u0432\u0435\u0437 \u041c\u0458\u0430\u043d\u043c\u0430\u0440\u0430",
+                "common": "\u041c\u0458\u0430\u043d\u043c\u0430\u0440"
+            },
+            "swe": {
+                "official": "Republiken Unionen Myanmar",
+                "common": "Myanmar"
+            },
+            "tur": {
+                "official": "Myanmar Birli\u011fi Cumhuriyeti",
+                "common": "Myanmar"
+            },
+            "urd": {
+                "official": "\u0645\u062a\u062d\u062f\u06c1 \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0645\u06cc\u0627\u0646\u0645\u0627\u0631",
+                "common": "\u0645\u06cc\u0627\u0646\u0645\u0627\u0631"
+            },
+            "zho": {
+                "official": "\u7f05\u7538\u8054\u90a6\u5171\u548c\u56fd",
+                "common": "\u7f05\u7538"
+            }
+        },
+        "latlng": [
+            22.0,
+            98.0
+        ],
+        "landlocked": false,
+        "borders": [
+            "BGD",
+            "CHN",
+            "IND",
+            "LAO",
+            "THA"
+        ],
+        "area": 676578.0,
+        "demonyms": {
+            "eng": {
+                "f": "Burmese",
+                "m": "Burmese"
+            },
+            "fra": {
+                "f": "Birmane",
+                "m": "Birman"
+            }
+        },
+        "flag": "\ud83c\uddf2\ud83c\uddf2",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/4jrZyJkDERUfHyp26",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/50371"
+        },
+        "population": 54409794,
+        "gini": {
+            "2017": 30.7
+        },
+        "fifa": "MYA",
+        "car": {
+            "signs": [
+                "BUR"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+06:30"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/mm.png",
+            "svg": "https://flagcdn.com/mm.svg",
+            "alt": "The flag of Myanmar is composed of three equal horizontal bands of yellow, green and red, with a large five-pointed white star superimposed at the center of the field."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/mm.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/mm.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                19.76,
+                96.07
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Philippines",
+            "official": "Republic of the Philippines",
+            "nativeName": {
+                "eng": {
+                    "official": "Republic of the Philippines",
+                    "common": "Philippines"
+                },
+                "fil": {
+                    "official": "Republic of the Philippines",
+                    "common": "Pilipinas"
+                }
+            }
+        },
+        "tld": [
+            ".ph"
+        ],
+        "cca2": "PH",
+        "ccn3": "608",
+        "cca3": "PHL",
+        "cioc": "PHI",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "PHP": {
+                "name": "Philippine peso",
+                "symbol": "\u20b1"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "3"
+            ]
+        },
+        "capital": [
+            "Manila"
+        ],
+        "altSpellings": [
+            "PH",
+            "Republic of the Philippines",
+            "Rep\u00fablika ng Pilipinas"
+        ],
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": {
+            "eng": "English",
+            "fil": "Filipino"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0627\u0644\u0641\u0644\u0628\u064a\u0646",
+                "common": "\u0627\u0644\u0641\u0644\u0628\u064a\u0646"
+            },
+            "bre": {
+                "official": "Republik Filipinez",
+                "common": "Filipinez"
+            },
+            "ces": {
+                "official": "Filip\u00ednsk\u00e1 republika",
+                "common": "Filip\u00edny"
+            },
+            "cym": {
+                "official": "Republic of the Philippines",
+                "common": "Philippines"
+            },
+            "deu": {
+                "official": "Republik der Philippinen",
+                "common": "Philippinen"
+            },
+            "est": {
+                "official": "Filipiini Vabariik",
+                "common": "Filipiinid"
+            },
+            "fin": {
+                "official": "Filippiinien tasavalta",
+                "common": "Filippiinit"
+            },
+            "fra": {
+                "official": "R\u00e9publique des Philippines",
+                "common": "Philippines"
+            },
+            "hrv": {
+                "official": "Republika Filipini",
+                "common": "Filipini"
+            },
+            "hun": {
+                "official": "F\u00fcl\u00f6p-szigeteki K\u00f6zt\u00e1rsas\u00e1g",
+                "common": "F\u00fcl\u00f6p-szigetek"
+            },
+            "ita": {
+                "official": "Repubblica delle Filippine",
+                "common": "Filippine"
+            },
+            "jpn": {
+                "official": "\u30d5\u30a3\u30ea\u30d4\u30f3\u5171\u548c\u56fd",
+                "common": "\u30d5\u30a3\u30ea\u30d4\u30f3"
+            },
+            "kor": {
+                "official": "\ud544\ub9ac\ud540 \uacf5\ud654\uad6d",
+                "common": "\ud544\ub9ac\ud540"
+            },
+            "nld": {
+                "official": "Republiek der Filipijnen",
+                "common": "Filipijnen"
+            },
+            "per": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0641\u06cc\u0644\u06cc\u067e\u06cc\u0646",
+                "common": "\u0641\u06cc\u0644\u06cc\u067e\u06cc\u0646"
+            },
+            "pol": {
+                "official": "Republika Filipin",
+                "common": "Filipiny"
+            },
+            "por": {
+                "official": "Rep\u00fablica das Filipinas",
+                "common": "Filipinas"
+            },
+            "rus": {
+                "official": "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u044b",
+                "common": "\u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u044b"
+            },
+            "slk": {
+                "official": "Filip\u00ednska republika",
+                "common": "Filip\u00edny"
+            },
+            "spa": {
+                "official": "Rep\u00fablica de las Filipinas",
+                "common": "Filipinas"
+            },
+            "srp": {
+                "official": "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0424\u0438\u043b\u0438\u043f\u0438\u043d\u0438",
+                "common": "\u0424\u0438\u043b\u0438\u043f\u0438\u043d\u0438"
+            },
+            "swe": {
+                "official": "Republiken Filippinerna",
+                "common": "Filippinerna"
+            },
+            "tur": {
+                "official": "Filipinler Cumhuriyeti",
+                "common": "Filipinler"
+            },
+            "urd": {
+                "official": "\u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0641\u0644\u067e\u0627\u0626\u0646",
+                "common": "\u0641\u0644\u067e\u0627\u0626\u0646"
+            },
+            "zho": {
+                "official": "\u83f2\u5f8b\u5bbe\u5171\u548c\u56fd",
+                "common": "\u83f2\u5f8b\u5bbe"
+            }
+        },
+        "latlng": [
+            13.0,
+            122.0
+        ],
+        "landlocked": false,
+        "area": 342353.0,
+        "demonyms": {
+            "eng": {
+                "f": "Filipino",
+                "m": "Filipino"
+            },
+            "fra": {
+                "f": "Philippine",
+                "m": "Philippin"
+            }
+        },
+        "flag": "\ud83c\uddf5\ud83c\udded",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/k8T2fb5VMUfsWFX6A",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/443174"
+        },
+        "population": 109581085,
+        "gini": {
+            "2018": 42.3
+        },
+        "fifa": "PHI",
+        "car": {
+            "signs": [
+                "RP"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+08:00"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ph.png",
+            "svg": "https://flagcdn.com/ph.svg",
+            "alt": "The flag of Philippines is composed of two equal horizontal bands of blue and red, with a white equilateral triangle superimposed on the hoist side of the field. This triangle has its base on the hoist end, spans about two-fifth the width of the field and bears a central golden-yellow sun with eight rays and a five-pointed golden-yellow star at each vertex."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ph.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ph.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                14.6,
+                120.97
+            ]
+        },
+        "postalCode": {
+            "format": "####",
+            "regex": "^(\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Thailand",
+            "official": "Kingdom of Thailand",
+            "nativeName": {
+                "tha": {
+                    "official": "\u0e23\u0e32\u0e0a\u0e2d\u0e32\u0e13\u0e32\u0e08\u0e31\u0e01\u0e23\u0e44\u0e17\u0e22",
+                    "common": "\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22"
+                }
+            }
+        },
+        "tld": [
+            ".th",
+            ".\u0e44\u0e17\u0e22"
+        ],
+        "cca2": "TH",
+        "ccn3": "764",
+        "cca3": "THA",
+        "cioc": "THA",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "THB": {
+                "name": "Thai baht",
+                "symbol": "\u0e3f"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "6"
+            ]
+        },
+        "capital": [
+            "Bangkok"
+        ],
+        "altSpellings": [
+            "TH",
+            "Prathet",
+            "Thai",
+            "Kingdom of Thailand",
+            "\u0e23\u0e32\u0e0a\u0e2d\u0e32\u0e13\u0e32\u0e08\u0e31\u0e01\u0e23\u0e44\u0e17\u0e22",
+            "Ratcha Anachak Thai"
+        ],
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": {
+            "tha": "Thai"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0645\u0645\u0644\u0643\u0629 \u062a\u0627\u064a\u0644\u0646\u062f",
+                "common": "\u062a\u0627\u064a\u0644\u0646\u062f"
+            },
+            "bre": {
+                "official": "Rouantelezh Thailand",
+                "common": "Thailand"
+            },
+            "ces": {
+                "official": "Thajsk\u00e9 kr\u00e1lovstv\u00ed",
+                "common": "Thajsko"
+            },
+            "cym": {
+                "official": "Kingdom of Thailand",
+                "common": "Thailand"
+            },
+            "deu": {
+                "official": "K\u00f6nigreich Thailand",
+                "common": "Thailand"
+            },
+            "est": {
+                "official": "Tai Kuningriik",
+                "common": "Tai"
+            },
+            "fin": {
+                "official": "Thaimaan kuningaskunta",
+                "common": "Thaimaa"
+            },
+            "fra": {
+                "official": "Royaume de Tha\u00eflande",
+                "common": "Tha\u00eflande"
+            },
+            "hrv": {
+                "official": "Kraljevina Tajland",
+                "common": "Tajland"
+            },
+            "hun": {
+                "official": "Thaif\u00f6ldi Kir\u00e1lys\u00e1g",
+                "common": "Thaif\u00f6ld"
+            },
+            "ita": {
+                "official": "Regno di Thailandia",
+                "common": "Tailandia"
+            },
+            "jpn": {
+                "official": "\u30bf\u30a4\u738b\u56fd",
+                "common": "\u30bf\u30a4"
+            },
+            "kor": {
+                "official": "\ud0c0\uc774 \uc655\uad6d",
+                "common": "\ud0dc\uad6d"
+            },
+            "nld": {
+                "official": "Koninkrijk Thailand",
+                "common": "Thailand"
+            },
+            "per": {
+                "official": "\u067e\u0627\u062f\u0634\u0627\u0647\u06cc \u062a\u0627\u06cc\u0644\u0646\u062f",
+                "common": "\u062a\u0627\u06cc\u0644\u0646\u062f"
+            },
+            "pol": {
+                "official": "Kr\u00f3lestwo Tajlandii",
+                "common": "Tajlandia"
+            },
+            "por": {
+                "official": "Reino da Tail\u00e2ndia",
+                "common": "Tail\u00e2ndia"
+            },
+            "rus": {
+                "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u0422\u0430\u0438\u043b\u0430\u043d\u0434",
+                "common": "\u0422\u0430\u0438\u043b\u0430\u043d\u0434"
+            },
+            "slk": {
+                "official": "Thajsk\u00e9 kr\u00e1\u013eovstvo",
+                "common": "Thajsko"
+            },
+            "spa": {
+                "official": "Reino de Tailandia",
+                "common": "Tailandia"
+            },
+            "srp": {
+                "official": "\u041a\u0440\u0430\u0459\u0435\u0432\u0438\u043d\u0430 \u0422\u0430\u0458\u043b\u0430\u043d\u0434",
+                "common": "\u0422\u0430\u0458\u043b\u0430\u043d\u0434"
+            },
+            "swe": {
+                "official": "Konungariket Thailand",
+                "common": "Thailand"
+            },
+            "tur": {
+                "official": "Tayland Krall\u0131\u011f\u0131",
+                "common": "Tayland"
+            },
+            "urd": {
+                "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u062a\u06be\u0627\u0626\u06cc \u0644\u06cc\u0646\u0688",
+                "common": "\u062a\u06be\u0627\u0626\u06cc \u0644\u06cc\u0646\u0688"
+            },
+            "zho": {
+                "official": "\u6cf0\u738b\u56fd",
+                "common": "\u6cf0\u56fd"
+            }
+        },
+        "latlng": [
+            15.0,
+            100.0
+        ],
+        "landlocked": false,
+        "borders": [
+            "MMR",
+            "KHM",
+            "LAO",
+            "MYS"
+        ],
+        "area": 513120.0,
+        "demonyms": {
+            "eng": {
+                "f": "Thai",
+                "m": "Thai"
+            },
+            "fra": {
+                "f": "Tha\u00eflandaise",
+                "m": "Tha\u00eflandais"
+            }
+        },
+        "flag": "\ud83c\uddf9\ud83c\udded",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/qeU6uqsfW4nCCwzw9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2067731"
+        },
+        "population": 69799978,
+        "gini": {
+            "2019": 34.9
+        },
+        "fifa": "THA",
+        "car": {
+            "signs": [
+                "T"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+07:00"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/th.png",
+            "svg": "https://flagcdn.com/th.svg",
+            "alt": "The flag of Thailand is composed of five horizontal bands of red, white, blue, white and red, with the central blue band twice the height of the other four bands."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/th.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/th.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                13.75,
+                100.52
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Vietnam",
+            "official": "Socialist Republic of Vietnam",
+            "nativeName": {
+                "vie": {
+                    "official": "C\u1ed9ng h\u00f2a x\u00e3 h\u1ed9i ch\u1ee7 ngh\u0129a Vi\u1ec7t Nam",
+                    "common": "Vi\u1ec7t Nam"
+                }
+            }
+        },
+        "tld": [
+            ".vn"
+        ],
+        "cca2": "VN",
+        "ccn3": "704",
+        "cca3": "VNM",
+        "cioc": "VIE",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "VND": {
+                "name": "Vietnamese \u0111\u1ed3ng",
+                "symbol": "\u20ab"
+            }
+        },
+        "idd": {
+            "root": "+8",
+            "suffixes": [
+                "4"
+            ]
+        },
+        "capital": [
+            "Hanoi"
+        ],
+        "altSpellings": [
+            "VN",
+            "Socialist Republic of Vietnam",
+            "C\u1ed9ng h\u00f2a X\u00e3 h\u1ed9i ch\u1ee7 ngh\u0129a Vi\u1ec7t Nam",
+            "Viet Nam"
+        ],
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": {
+            "vie": "Vietnamese"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u064a\u0629 \u0641\u064a\u062a\u0646\u0627\u0645 \u0627\u0644\u0627\u0634\u062a\u0631\u0627\u0643\u064a\u0629",
+                "common": "\u0641\u064a\u062a\u0646\u0627\u0645"
+            },
+            "bre": {
+                "official": "Republik Sokialour Vi\u00eat Nam",
+                "common": "Vi\u00eat Nam"
+            },
+            "ces": {
+                "official": "Vietnamsk\u00e1 socialistick\u00e1 republika",
+                "common": "Vietnam"
+            },
+            "cym": {
+                "official": "Socialist Republic of Vietnam",
+                "common": "Vietnam"
+            },
+            "deu": {
+                "official": "Sozialistische Republik Vietnam",
+                "common": "Vietnam"
+            },
+            "est": {
+                "official": "Vietnami Sotsialistlik Vabariik",
+                "common": "Vietnam"
+            },
+            "fin": {
+                "official": "Vietnamin sosialistinen tasavalta",
+                "common": "Vietnam"
+            },
+            "fra": {
+                "official": "R\u00e9publique socialiste du Vi\u00eat Nam",
+                "common": "Vi\u00eat Nam"
+            },
+            "hrv": {
+                "official": "Socijalisti\u010dka Republika Vijetnam",
+                "common": "Vijetnam"
+            },
+            "hun": {
+                "official": "Vietn\u00e1mi Szocialista K\u00f6zt\u00e1rsas\u00e1g",
+                "common": "Vietn\u00e1m"
+            },
+            "ita": {
+                "official": "Repubblica socialista del Vietnam",
+                "common": "Vietnam"
+            },
+            "jpn": {
+                "official": "\u30d9\u30c8\u30ca\u30e0\u793e\u4f1a\u4e3b\u7fa9\u5171\u548c\u56fd",
+                "common": "\u30d9\u30c8\u30ca\u30e0"
+            },
+            "kor": {
+                "official": "\ubca0\ud2b8\ub0a8 \uc0ac\ud68c\uc8fc\uc758 \uacf5\ud654\uad6d",
+                "common": "\ubca0\ud2b8\ub0a8"
+            },
+            "nld": {
+                "official": "Socialistische Republiek Vietnam",
+                "common": "Vietnam"
+            },
+            "per": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0633\u0648\u0633\u06cc\u0627\u0644\u06cc\u0633\u062a\u06cc \u0648\u06cc\u062a\u0646\u0627\u0645",
+                "common": "\u0648\u06cc\u062a\u0646\u0627\u0645"
+            },
+            "pol": {
+                "official": "Socjalistyczna Republika Wietnamu",
+                "common": "Wietnam"
+            },
+            "por": {
+                "official": "Rep\u00fablica Socialista do Vietname",
+                "common": "Vietname"
+            },
+            "rus": {
+                "official": "\u0421\u043e\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0412\u044c\u0435\u0442\u043d\u0430\u043c",
+                "common": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c"
+            },
+            "slk": {
+                "official": "Vietnamsk\u00e1 socialistick\u00e1 republika",
+                "common": "Vietnam"
+            },
+            "spa": {
+                "official": "Rep\u00fablica Socialista de Vietnam",
+                "common": "Vietnam"
+            },
+            "srp": {
+                "official": "\u0421\u043e\u0446\u0438\u0458\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u043a\u0430 \u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0412\u0438\u0458\u0435\u0442\u043d\u0430\u043c",
+                "common": "\u0412\u0438\u0458\u0435\u0442\u043d\u0430\u043c"
+            },
+            "swe": {
+                "official": "Socialistiska republiken Vietnam",
+                "common": "Vietnam"
+            },
+            "tur": {
+                "official": "Vietnam Sosyalist Cumhuriyeti",
+                "common": "Vietnam"
+            },
+            "urd": {
+                "official": "\u0627\u0634\u062a\u0631\u0627\u06a9\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0648\u06cc\u062a\u0646\u0627\u0645",
+                "common": "\u0648\u06cc\u062a\u0646\u0627\u0645"
+            },
+            "zho": {
+                "official": "\u8d8a\u5357\u793e\u4f1a\u4e3b\u4e49\u5171\u548c\u56fd",
+                "common": "\u8d8a\u5357"
+            }
+        },
+        "latlng": [
+            16.16666666,
+            107.83333333
+        ],
+        "landlocked": false,
+        "borders": [
+            "KHM",
+            "CHN",
+            "LAO"
+        ],
+        "area": 331212.0,
+        "demonyms": {
+            "eng": {
+                "f": "Vietnamese",
+                "m": "Vietnamese"
+            },
+            "fra": {
+                "f": "Vietnamienne",
+                "m": "Vietnamien"
+            }
+        },
+        "flag": "\ud83c\uddfb\ud83c\uddf3",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/PCpVt9WzdJ9A9nEZ9",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/49915"
+        },
+        "population": 97338583,
+        "gini": {
+            "2018": 35.7
+        },
+        "fifa": "VIE",
+        "car": {
+            "signs": [
+                "VN"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+07:00"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/vn.png",
+            "svg": "https://flagcdn.com/vn.svg",
+            "alt": "The flag of Vietnam features a large five-pointed yellow star on a red field."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/vn.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/vn.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                21.03,
+                105.85
+            ]
+        },
+        "postalCode": {
+            "format": "######",
+            "regex": "^(\\d{6})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Brunei",
+            "official": "Nation of Brunei, Abode of Peace",
+            "nativeName": {
+                "msa": {
+                    "official": "Nation of Brunei, Abode Damai",
+                    "common": "Negara Brunei Darussalam"
+                }
+            }
+        },
+        "tld": [
+            ".bn"
+        ],
+        "cca2": "BN",
+        "ccn3": "096",
+        "cca3": "BRN",
+        "cioc": "BRU",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "BND": {
+                "name": "Brunei dollar",
+                "symbol": "$"
+            },
+            "SGD": {
+                "name": "Singapore dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "73"
+            ]
+        },
+        "capital": [
+            "Bandar Seri Begawan"
+        ],
+        "altSpellings": [
+            "BN",
+            "Brunei Darussalam",
+            "Nation of Brunei",
+            "the Abode of Peace"
+        ],
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": {
+            "msa": "Malay"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0628\u0631\u0648\u0646\u0627\u064a \u062f\u0627\u0631 \u0627\u0644\u0633\u0644\u0627\u0645",
+                "common": "\u0628\u0631\u0648\u0646\u0627\u064a"
+            },
+            "bre": {
+                "official": "Stad Brunei Darussalam",
+                "common": "Brunei"
+            },
+            "ces": {
+                "official": "Sultan\u00e1t Brunej",
+                "common": "Brunej"
+            },
+            "cym": {
+                "official": "Teyrnas Brwnei",
+                "common": "Brunei"
+            },
+            "deu": {
+                "official": "Sultanat Brunei Darussalam",
+                "common": "Brunei"
+            },
+            "est": {
+                "official": "Brunei Darussalami Riik",
+                "common": "Brunei"
+            },
+            "fin": {
+                "official": "Brunei Darussalamin valtio",
+                "common": "Brunei"
+            },
+            "fra": {
+                "official": "\u00c9tat de Brunei Darussalam",
+                "common": "Brunei"
+            },
+            "hrv": {
+                "official": "Nacija od Bruneja, Ku\u0107u Mira",
+                "common": "Brunej"
+            },
+            "hun": {
+                "official": "Brunei Szultan\u00e1tus",
+                "common": "Brunei"
+            },
+            "ita": {
+                "official": "Nazione di Brunei, Dimora della Pace",
+                "common": "Brunei"
+            },
+            "jpn": {
+                "official": "\u30d6\u30eb\u30cd\u30a4\u3001\u5e73\u548c\u306e\u7cbe\u820e\u306e\u56fd\u5bb6",
+                "common": "\u30d6\u30eb\u30cd\u30a4\u30fb\u30c0\u30eb\u30b5\u30e9\u30fc\u30e0"
+            },
+            "kor": {
+                "official": "\ube0c\ub8e8\ub098\uc774 \ub2e4\ub8e8\uc0b4\ub78c\uad6d",
+                "common": "\ube0c\ub8e8\ub098\uc774"
+            },
+            "nld": {
+                "official": "Natie van Brunei, de verblijfplaats van de Vrede",
+                "common": "Brunei"
+            },
+            "per": {
+                "official": "\u0628\u0631\u0648\u0646\u0626\u06cc \u0633\u0631\u0627\u06cc \u0635\u0644\u062d",
+                "common": "\u0628\u0631\u0648\u0646\u0626\u06cc"
+            },
+            "pol": {
+                "official": "Pa\u0144stwo Brunei Darussalam",
+                "common": "Brunei"
+            },
+            "por": {
+                "official": "Na\u00e7\u00e3o do Brunei, Morada da Paz",
+                "common": "Brunei"
+            },
+            "rus": {
+                "official": "\u041d\u0430\u0446\u0438\u044f \u0411\u0440\u0443\u043d\u0435\u0439, \u043e\u0431\u0438\u0442\u0435\u043b\u044c \u043c\u0438\u0440\u0430",
+                "common": "\u0411\u0440\u0443\u043d\u0435\u0439"
+            },
+            "slk": {
+                "official": "Brunejsk\u00fd sultan\u00e2t",
+                "common": "Brunej"
+            },
+            "spa": {
+                "official": "Naci\u00f3n de Brunei, Morada de la Paz",
+                "common": "Brunei"
+            },
+            "srp": {
+                "official": "\u0421\u0443\u043b\u0442\u0430\u043d\u0430\u0442 \u0411\u0440\u0443\u043d\u0435\u0458, \u0431\u043e\u0440\u0430\u0432\u0438\u0448\u0442\u0435 \u043c\u0438\u0440\u0430",
+                "common": "\u0411\u0440\u0443\u043d\u0435\u0458"
+            },
+            "swe": {
+                "official": "Brunei Darussalam",
+                "common": "Brunei"
+            },
+            "tur": {
+                "official": "Brunei Bar\u0131\u015f \u00dclkesi Devleti",
+                "common": "Brunei"
+            },
+            "urd": {
+                "official": "\u0631\u06cc\u0627\u0633\u062a\u0650 \u0628\u0631\u0648\u0646\u0627\u0626\u06cc \u062f\u0627\u0631\u0627\u0644\u0633\u0644\u0627\u0645",
+                "common": "\u0628\u0631\u0648\u0646\u0627\u0626\u06cc"
+            },
+            "zho": {
+                "official": "\u6587\u83b1\u548c\u5e73\u4e4b\u56fd",
+                "common": "\u6587\u83b1"
+            }
+        },
+        "latlng": [
+            4.5,
+            114.66666666
+        ],
+        "landlocked": false,
+        "borders": [
+            "MYS"
+        ],
+        "area": 5765.0,
+        "demonyms": {
+            "eng": {
+                "f": "Bruneian",
+                "m": "Bruneian"
+            },
+            "fra": {
+                "f": "Brun\u00e9ienne",
+                "m": "Brun\u00e9ien"
+            }
+        },
+        "flag": "\ud83c\udde7\ud83c\uddf3",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/4jb4CqBXhr8vNh579",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2103120"
+        },
+        "population": 437483,
+        "fifa": "BRU",
+        "car": {
+            "signs": [
+                "BRU"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+08:00"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/bn.png",
+            "svg": "https://flagcdn.com/bn.svg",
+            "alt": "The flag of Brunei has a yellow field with two adjoining diagonal bands of white and black that extend from the upper hoist side of the field to the lower fly side. The red emblem of Brunei is centered on the field."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/bn.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/bn.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                4.88,
+                114.93
+            ]
+        },
+        "postalCode": {
+            "format": "@@####",
+            "regex": "^([A-Z]{2}\\d{4})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Cambodia",
+            "official": "Kingdom of Cambodia",
+            "nativeName": {
+                "khm": {
+                    "official": "\u1796\u17d2\u179a\u17c7\u179a\u17b6\u1787\u17b6\u178e\u17b6\u1785\u1780\u17d2\u179a\u1780\u1798\u17d2\u1796\u17bb\u1787\u17b6",
+                    "common": "K\u00e2mp\u016dch\u00e9a"
+                }
+            }
+        },
+        "tld": [
+            ".kh"
+        ],
+        "cca2": "KH",
+        "ccn3": "116",
+        "cca3": "KHM",
+        "cioc": "CAM",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "KHR": {
+                "name": "Cambodian riel",
+                "symbol": "\u17db"
+            },
+            "USD": {
+                "name": "United States dollar",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+8",
+            "suffixes": [
+                "55"
+            ]
+        },
+        "capital": [
+            "Phnom Penh"
+        ],
+        "altSpellings": [
+            "KH",
+            "Kingdom of Cambodia"
+        ],
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": {
+            "khm": "Khmer"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0645\u0645\u0644\u0643\u0629 \u0643\u0645\u0628\u0648\u062f\u064a\u0627",
+                "common": "\u0643\u0645\u0628\u0648\u062f\u064a\u0627"
+            },
+            "bre": {
+                "official": "Rouantelezh Kambodja",
+                "common": "Kambodja"
+            },
+            "ces": {
+                "official": "Kambod\u017esk\u00e9 kr\u00e1lovstv\u00ed",
+                "common": "Kambod\u017ea"
+            },
+            "cym": {
+                "official": "Teyrnas Cambodia",
+                "common": "Cambodia"
+            },
+            "deu": {
+                "official": "K\u00f6nigreich Kambodscha",
+                "common": "Kambodscha"
+            },
+            "est": {
+                "official": "Kambod\u017ea Kuningriik",
+                "common": "Kambod\u017ea"
+            },
+            "fin": {
+                "official": "Kambod\u017ean kuningaskunta",
+                "common": "Kambod\u017ea"
+            },
+            "fra": {
+                "official": "Royaume du Cambodge",
+                "common": "Cambodge"
+            },
+            "hrv": {
+                "official": "Kraljevina Kambod\u017ea",
+                "common": "Kambod\u017ea"
+            },
+            "hun": {
+                "official": "Kambodzsai Kir\u00e1lys\u00e1g",
+                "common": "Kambodzsa"
+            },
+            "ita": {
+                "official": "Regno di Cambogia",
+                "common": "Cambogia"
+            },
+            "jpn": {
+                "official": "\u30ab\u30f3\u30dc\u30b8\u30a2\u738b\u56fd",
+                "common": "\u30ab\u30f3\u30dc\u30b8\u30a2"
+            },
+            "kor": {
+                "official": "\uce84\ubcf4\ub514\uc544 \uc655\uad6d",
+                "common": "\uce84\ubcf4\ub514\uc544"
+            },
+            "nld": {
+                "official": "Koninkrijk Cambodja",
+                "common": "Cambodja"
+            },
+            "per": {
+                "official": "\u067e\u0627\u062f\u0634\u0627\u0647\u06cc \u06a9\u0627\u0645\u0628\u0648\u062c",
+                "common": "\u06a9\u0627\u0645\u0628\u0648\u062c"
+            },
+            "pol": {
+                "official": "Kr\u00f3lestwo Kambod\u017cy",
+                "common": "Kambod\u017ca"
+            },
+            "por": {
+                "official": "Reino do Camboja",
+                "common": "Camboja"
+            },
+            "rus": {
+                "official": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u043e \u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430",
+                "common": "\u041a\u0430\u043c\u0431\u043e\u0434\u0436\u0430"
+            },
+            "slk": {
+                "official": "Kambo\u01c6sk\u00e9 kr\u00e1\u013eovstvo",
+                "common": "Kambo\u01c6a"
+            },
+            "spa": {
+                "official": "Reino de Camboya",
+                "common": "Camboya"
+            },
+            "srp": {
+                "official": "\u041a\u0440\u0430\u0459\u0435\u0432\u0438\u043d\u0430 \u041a\u0430\u043c\u0431\u043e\u045f\u0430",
+                "common": "\u041a\u0430\u043c\u0431\u043e\u045f\u0430"
+            },
+            "swe": {
+                "official": "Konungariket Kambodja",
+                "common": "Kambodja"
+            },
+            "tur": {
+                "official": "Kambo\u00e7ya Krall\u0131\u011f\u0131",
+                "common": "Kambo\u00e7ya"
+            },
+            "urd": {
+                "official": "\u0645\u0645\u0644\u06a9\u062a\u0650 \u06a9\u0645\u0628\u0648\u0688\u06cc\u0627",
+                "common": "\u06a9\u0645\u0628\u0648\u0688\u06cc\u0627"
+            },
+            "zho": {
+                "official": "\u67ec\u57d4\u5be8\u738b\u56fd",
+                "common": "\u67ec\u57d4\u5be8"
+            }
+        },
+        "latlng": [
+            13.0,
+            105.0
+        ],
+        "landlocked": false,
+        "borders": [
+            "LAO",
+            "THA",
+            "VNM"
+        ],
+        "area": 181035.0,
+        "demonyms": {
+            "eng": {
+                "f": "Cambodian",
+                "m": "Cambodian"
+            },
+            "fra": {
+                "f": "Cambodgienne",
+                "m": "Cambodgien"
+            }
+        },
+        "flag": "\ud83c\uddf0\ud83c\udded",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/nztQtFSrUXZymJaW8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/49898"
+        },
+        "population": 16718971,
+        "fifa": "CAM",
+        "car": {
+            "signs": [
+                "K"
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+07:00"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/kh.png",
+            "svg": "https://flagcdn.com/kh.svg",
+            "alt": "The flag of Cambodia features three horizontal bands of blue, red and blue, with a white depiction of the temple complex, Angkor Wat centered in the red band."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/kh.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/kh.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                11.55,
+                104.92
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    },
+    {
+        "name": {
+            "common": "Malaysia",
+            "official": "Malaysia",
+            "nativeName": {
+                "eng": {
+                    "official": "Malaysia",
+                    "common": "Malaysia"
+                },
+                "msa": {
+                    "official": "\u0645\u0644\u064a\u0633\u064a\u0627",
+                    "common": "\u0645\u0644\u064a\u0633\u064a\u0627"
+                }
+            }
+        },
+        "tld": [
+            ".my"
+        ],
+        "cca2": "MY",
+        "ccn3": "458",
+        "cca3": "MYS",
+        "cioc": "MAS",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "MYR": {
+                "name": "Malaysian ringgit",
+                "symbol": "RM"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "0"
+            ]
+        },
+        "capital": [
+            "Kuala Lumpur"
+        ],
+        "altSpellings": [
+            "MY"
+        ],
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "languages": {
+            "eng": "English",
+            "msa": "Malay"
+        },
+        "translations": {
+            "ara": {
+                "official": "\u0645\u0627\u0644\u064a\u0632\u064a\u0627",
+                "common": "\u0645\u0627\u0644\u064a\u0632\u064a\u0627"
+            },
+            "bre": {
+                "official": "Malaysia",
+                "common": "Malaysia"
+            },
+            "ces": {
+                "official": "Malajsie",
+                "common": "Malajsie"
+            },
+            "cym": {
+                "official": "Malaysia",
+                "common": "Malaysia"
+            },
+            "deu": {
+                "official": "Malaysia",
+                "common": "Malaysia"
+            },
+            "est": {
+                "official": "Malaisia",
+                "common": "Malaisia"
+            },
+            "fin": {
+                "official": "Malesia",
+                "common": "Malesia"
+            },
+            "fra": {
+                "official": "F\u00e9d\u00e9ration de Malaisie",
+                "common": "Malaisie"
+            },
+            "hrv": {
+                "official": "Malezija",
+                "common": "Malezija"
+            },
+            "hun": {
+                "official": "Malajzia",
+                "common": "Malajzia"
+            },
+            "ita": {
+                "official": "Malaysia",
+                "common": "Malesia"
+            },
+            "jpn": {
+                "official": "\u30de\u30ec\u30fc\u30b7\u30a2",
+                "common": "\u30de\u30ec\u30fc\u30b7\u30a2"
+            },
+            "kor": {
+                "official": "\ub9d0\ub808\uc774\uc2dc\uc544",
+                "common": "\ub9d0\ub808\uc774\uc2dc\uc544"
+            },
+            "nld": {
+                "official": "Maleisi\u00eb",
+                "common": "Maleisi\u00eb"
+            },
+            "per": {
+                "official": "\u0641\u062f\u0631\u0627\u0633\u06cc\u0648\u0646 \u0645\u0627\u0644\u0632\u06cc",
+                "common": "\u0645\u0627\u0644\u0632\u06cc"
+            },
+            "pol": {
+                "official": "Malezja",
+                "common": "Malezja"
+            },
+            "por": {
+                "official": "Mal\u00e1sia",
+                "common": "Mal\u00e1sia"
+            },
+            "rus": {
+                "official": "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f",
+                "common": "\u041c\u0430\u043b\u0430\u0439\u0437\u0438\u044f"
+            },
+            "slk": {
+                "official": "Malajzia",
+                "common": "Malajzia"
+            },
+            "spa": {
+                "official": "Malasia",
+                "common": "Malasia"
+            },
+            "srp": {
+                "official": "\u041c\u0430\u043b\u0435\u0437\u0438\u0458\u0430",
+                "common": "\u041c\u0430\u043b\u0435\u0437\u0438\u0458\u0430"
+            },
+            "swe": {
+                "official": "Malaysia",
+                "common": "Malaysia"
+            },
+            "tur": {
+                "official": "Malezya",
+                "common": "Malezya"
+            },
+            "urd": {
+                "official": "\u0645\u0644\u0627\u0626\u06cc\u0634\u06cc\u0627",
+                "common": "\u0645\u0644\u0627\u0626\u06cc\u0634\u06cc\u0627"
+            },
+            "zho": {
+                "official": "\u9a6c\u6765\u897f\u4e9a",
+                "common": "\u9a6c\u6765\u897f\u4e9a"
+            }
+        },
+        "latlng": [
+            2.5,
+            112.5
+        ],
+        "landlocked": false,
+        "borders": [
+            "BRN",
+            "IDN",
+            "THA"
+        ],
+        "area": 330803.0,
+        "demonyms": {
+            "eng": {
+                "f": "Malaysian",
+                "m": "Malaysian"
+            },
+            "fra": {
+                "f": "Malaisienne",
+                "m": "Malaisien"
+            }
+        },
+        "flag": "\ud83c\uddf2\ud83c\uddfe",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/qrY1PNeUXGyXDcPy6",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/2108121"
+        },
+        "population": 32365998,
+        "gini": {
+            "2015": 41.1
+        },
+        "fifa": "MAS",
+        "car": {
+            "signs": [
+                "MAL"
+            ],
+            "side": "left"
+        },
+        "timezones": [
+            "UTC+08:00"
+        ],
+        "continents": [
+            "Asia"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/my.png",
+            "svg": "https://flagcdn.com/my.svg",
+            "alt": "The flag of Malaysia is composed of fourteen equal horizontal bands of red alternating with white. A blue rectangle, bearing a fly-side facing yellow crescent and a fourteen-pointed yellow star placed just outside the crescent opening, is superimposed in the canton."
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/my.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/my.svg"
+        },
+        "startOfWeek": "sunday",
+        "capitalInfo": {
+            "latlng": [
+                3.17,
+                101.7
+            ]
+        },
+        "postalCode": {
+            "format": "#####",
+            "regex": "^(\\d{5})$"
+        }
+    }
+]

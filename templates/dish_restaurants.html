@@ -1,0 +1,136 @@
+<!-- INSTANCE PAGE FOR A MENU ITEM -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hungry Austin | {{ dish.name }} Details</title>
+    <link rel="icon" href="../static/images/icon.jpg" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@600&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/nav_bar.css">
+    <link rel="stylesheet" href="../static/css/layout.css">
+
+    <style>
+    </style>
+</head>
+<body>
+
+<!--NavBar Bootstrap-->
+<nav class="navbar navbar-expand-lg navbar-light bg-navbar">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="{{url_for('home')}}"><i class="fas fa-utensils"></i> Home<span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="{{url_for('about')}}"><i class="fas fa-info-circle"></i> About Us</a>
+            <a class="nav-link" href="{{url_for('restaurant')}}"><i class="fas fa-utensils"></i> Restaurants</a>
+            <a class="nav-link" href="{{url_for('cuisines')}}"><i class="fas fa-pepper-hot"></i> Cuisines</a>
+            <a class="nav-link" href="{{url_for('dishes')}}"><i class="fas fa-utensil-spoon"></i> Dishes</a>
+          </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<div class = "main text-center">
+    <h1>{{ dish.name }} Details</h1>
+    <img src="{{ dish.image }}" alt="{{ dish.name }}" width="300"> <!-- Adjust the width as needed -->
+    
+    <p>Ingredients: 
+          {% for i in range(dish.ingredients|length) %}
+            {% if i < (dish.ingredients|length - 1) %}
+              <ul>{{dish.ingredients[i]}}, </ul>
+            {% else %}
+              <ul>{{dish.ingredients[i]}}</ul>
+            {% endif %}
+          {% endfor %} 
+        </p>
+    <!--
+    <p>Nutrition: 
+      {% for nutrition in dish.nutrition %}
+        <ul>{{nutrition}}: {{dish.nutrition[nutrition]}}</ul>
+        {% endfor %}
+    </p>
+  --> 
+  <p>Calories: {{dish.calories}}</p>
+
+    <p>Dietary Restrictions: 
+        {% for restriction in dish.dietary %}
+        <span class="badge badge-pill badge-secondary">{{restriction}}</span>
+        {% endfor %}
+    </p>
+    <p>Cuisine: 
+      {% for cuisine in dish.cuisines %}
+      <a href="{{url_for('cuisine_menu', id = cuisines[cuisine].id)}}">{{cuisines[cuisine].name}} </a>
+      {% endfor %}
+
+
+    <h5>Restaurants Related to {{ dish.name }}</h5>
+        {% for cuisine in dish.cuisines %}
+            <p>Restaurants with {{cuisines[cuisine].name}} cuisine: </p>
+          {% if cuisines[cuisine].restaurants|length > 0 %}
+            {% for restaurant_id in cuisines[cuisine].restaurants %}
+              <p><a href="{{ url_for('restaurant_menu', id = restaurant_id) }}">{{restaurants[restaurant_id].name}}</a></p>
+            {% endfor %}
+          {% else %}
+            <p><em>No related restaurants available</em></p>
+            {% endif %}
+
+        <br>
+        {% endfor %}
+
+</div>
+
+<!--Footer-->
+        <!-- First Layer Footer -->
+        <footer class="first-layer-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <ul class="nav justify-content-center pb-4 mb-3">
+                    <li class="nav-item"><a href="{{url_for('home')}}" class="nav-link px-2 text-body-secondary"><i class="fas fa-home"></i> Home</a></li>
+                    <li class="nav-item"><a href="{{url_for('about')}}" class="nav-link px-2 text-body-secondary"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li class="nav-item"><a href="{{url_for('restaurant')}}" class="nav-link px-2 text-body-secondary"><i class="fas fa-utensils"></i> Restaurants</a></li>
+                    <li class="nav-item"><a href="{{url_for('cuisines')}}" class="nav-link px-2 text-body-secondary"><i class="fas fa-pepper-hot"></i> Cuisines</a></li>
+                    <li class="nav-item"><a href="{{url_for('dishes')}}" class="nav-link px-2 text-body-secondary"><i class="fas fa-utensil-spoon"></i> Dishes</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+  
+          <!-- Second Layer Footer -->
+          <footer class="second-layer-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p class="text-center text-body-secondary">&copy; 2024 Hungry Austin</p>
+              </div>
+            </div>
+          </div>
+          </footer>
+  
+        
+        <!-- Sources -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+                        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" 
+                        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" 
+                        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+  
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" 
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" 
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
